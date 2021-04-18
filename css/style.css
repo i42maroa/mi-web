@@ -29,7 +29,7 @@ body {
 .navbar-menu-cafe__cafe{
   display: flex;
   margin: auto;
-  padding: 1% 5%;  
+  padding: 5px 10px;  
 }
 
 .navbar-menu-cafe__parte-cafe{
@@ -209,7 +209,7 @@ header{
 
 
 #header-video__video{
-  height: 100%;
+  
   width: 100%;
   filter: blur(5px);
   -webkit-filter: blur(5px);
@@ -239,7 +239,7 @@ header{
 
 .header-content {
   position: absolute;
-  top: 50%;
+  top: 20%;
   transition: all 1000;
 }
 
@@ -265,7 +265,7 @@ header{
   justify-content: space-around;
   z-index: 100;
   box-shadow: 3px 4px 4px black;
-  width: 100%;
+
 }
 
 
@@ -274,32 +274,29 @@ header{
 
 .section-sobre__img{
   display: block ;
-  padding: 50px;
   transform: rotate(-2deg);
+  margin: auto;
 }
 
 .section-sobre__img img{
   height: 1000px;
   width: auto;
-  float: left;
+  padding: 50px;
 }
 
 
-.section-sobre__explicacion{
-  display: block ;
-}
+
 
 .section-sobre__explicacion h3{
   text-align: center;
    font-size: 5rem;
    padding-bottom: 70px;
-   padding-right: 50px;
+
    text-shadow: 0px 2px 2px black;
 }
 
 .section-sobre__explicacion p{
   font-size: 2rem;
-  padding: 0 40px;
 }
 
 
@@ -309,7 +306,7 @@ header{
 #section-tecnologia{
   display: flex;
   justify-content: space-around;
-  display: none;
+
 }
 
 .section-tecnologia__skills{
@@ -331,6 +328,7 @@ header{
   display: block;
   margin: auto;
   transform: rotate(1deg);
+  display: none;
 
 }
 
@@ -384,6 +382,7 @@ header{
   text-align: center;
   font-size: 3rem;
   text-shadow: 0px 5px 5px black;
+  margin: auto;
 }
 
 .anio{
@@ -430,6 +429,7 @@ header{
 }
 
 .contenedor__posit{
+  display: none;
   background:#ffffa5;
   width:300px; 
   height:250px;
@@ -540,10 +540,30 @@ position: absolute;
 .section-contacto__redes{
   display: flex;  
   justify-content: space-around;
-  padding: 80px 80px;
+  padding: 70px 80px;
+  margin: auto;
 }
 
 
+
+.section-contacto__redes-div{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-contacto__redes-div i{
+    margin: auto;
+}
+
+.section-contacto__redes a{
+  font-size: 3rem;
+}
+
+.section-contacto__redes-div p{
+  font-size: 1.5rem  !important ;
+}
 
 
 
@@ -611,9 +631,6 @@ h1 {
   text-transform: uppercase;
 }
 
-.check-js-1, .check-js-2, .check-js-3, .check-js-4, .check-js-5, .check-js-6, .check-js-7, .check-js-8{
-  visibility: visible;
-}
 
 
 
@@ -776,7 +793,171 @@ border: 3px solid #4e3620;
 
 /*RESPONSIBE*/
 /*----------------------------------------------------------*/
-@media(max-width:560px){
+
+@media(max-width:1366px){
+
+  
+  /* TRABAJO*/
+  .anio{
+    padding-left: 0px;
+  }
+
+  .section-trabajo__grid-text{
+    font-size: 2.5rem;
+  }
+
+
+  .navbar-menu-cafe{
+    margin: auto;
+    padding: 10px;
+    padding-bottom:15%;
+    
+  }
+
+  .navbar-menu-cafe p{
+    font-size: 1.8rem;
+  }
+
+  .navbar-menu-cafe__parte-cafe p{
+    height: 50px;
+    width: 180px;
+  }
+
+
+  .navbar-menu-cafe__parte-dinero{
+    height: 120px;
+    width: 250px;
+    position: absolute;
+    top: 75px;
+  }
+
+  .navbar-menu-cafe__parte-dinero__pantalla h1{
+      font-size: 1rem;
+  }
+
+
+  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
+    width: 50px;
+    height: 50px;
+    background-size: 60px;
+  }
+
+
+
+
+
+  #section-sobre{
+    display: none;
+  }
+
+  #section-tecnologia{
+    display: none;
+  }
+
+  #section-trabajo{
+    display: none;
+  }
+
+  #section-contacto{
+    display: none;
+  }
+
+
+
+}
+
+
+
+@media(max-width:1024px){
+
+  .navbar-menu-cafe p{
+    font-size: 1.5rem;
+  }
+
+  .navbar-menu-cafe__parte-cafe p{
+    height: 40px;
+    width: 150px;
+  }
+
+  .navbar-menu-cafe__cafe-boton{
+    height: 45px;
+    width: 45px;
+  }
+  
+
+  .navbar-menu-cafe__parte-dinero{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 65px;
+  }
+
+  .navbar-menu-cafe__parte-dinero__pantalla h1{
+    font-size: 0.9rem;
+}
+  
+
+ .header-content__title{
+    font-size: 4rem;
+  }
+
+  .header-content__text{
+    font-size: 2.5rem;
+  }
+
+
+  
+
+
+
+  #section-sobre{
+    display: none;
+  }
+
+  
+  #section-sobre p {
+    font-size: 1rem;
+  }
+
+
+  .section-sobre__img {
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+  }
+  .section-sobre__img img{
+    height: auto;
+    width: 100%;
+  }
+
+  
+
+
+
+  #section-tecnologia{
+    display: none;
+  }
+
+  #section-trabajo{
+    display: none;
+  }
+
+  #section-contacto{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+
   .gota-agua{
     height: 60px;
     width: 60px;
@@ -787,23 +968,98 @@ border: 3px solid #4e3620;
   .navbar-menu-cafe{
     flex-direction: column;
     margin: auto;
-
-    padding-bottom:22%;
-  }
-  .navbar-menu-cafe p{
-    font-size: 1.5rem;
+    padding-bottom:16%;
   }
 
-  .navbar-menu-cafe__cafe{
-    padding: 10px 5px; 
+
+
+  .navbar-menu-cafe__parte-cafe p{
+      height: 40px;
+      width: 180px;
   }
+
+  
+
+  .navbar-menu-cafe__parte-dinero{
+    height: 90px;
+    width: 180px;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    top: 120px;
+  }
+
+  .navbar-menu-cafe__parte-dinero__pantalla h1{
+      font-size: 0.8rem;
+  }
+
+  .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
+    border-left: 20px solid #00917c;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+  }
+  .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
+    border-left: 20px solid #00917c;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+  }
+
+  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
+    width: 50px;
+    height: 50px;
+    background-size: 40px;
+    margin: auto;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:561px){
+  .gota-agua{
+    height: 60px;
+    width: 60px;
+    background-size: 40px;
+    margin: auto;
+  }
+
+ 
+  .navbar-menu-cafe{
+    padding: 2px;
+    padding-bottom:21%;
+  }
+
 
   .navbar-menu-cafe__parte-cafe p{
       height: 40px;
       width: 150px;
   }
 
+  
+ 
+  .navbar-menu-cafe p{
+    font-size: 1.1rem;
+  }
+
+  .navbar-menu-cafe__cafe{
+    padding: 10px 5px; 
+  }
+
+
   .navbar-menu-cafe__cafe-boton{
+    padding: 10px;
     width: 20px;
     height: 20px;
   }
@@ -812,13 +1068,6 @@ border: 3px solid #4e3620;
   .navbar-menu-cafe__parte-dinero{
     height: 90px;
     width: 140px;
-
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
     bottom: 0;
    
   }
@@ -845,6 +1094,8 @@ border: 3px solid #4e3620;
     margin: auto;
   }
 
+
+
   .header-content{
     top: 25%;
   }
@@ -857,9 +1108,9 @@ border: 3px solid #4e3620;
     font-size: 2rem;
   }
 
-  #section-sobre{
-    flex-direction: column;
-  }
+
+
+  
 
   .section-sobre__img {
     height: auto;
@@ -875,6 +1126,9 @@ border: 3px solid #4e3620;
   #section-sobre p {
     font-size: 2rem;
   }
+
+
+  
 
   .section-contacto__redes{
     flex-direction: column;
@@ -966,209 +1220,106 @@ border: 3px solid #4e3620;
 
 
 
-@media(max-width:560px){
+
+
+
+@media(max-width:426px){
+
   .gota-agua{
-    height: 60px;
-    width: 60px;
-    background-size: 40px;
+    height: 50px;
+    width: 50px;
+    background-size: 30px;
     margin: auto;
   }
 
   .navbar-menu-cafe{
-    flex-direction: column;
-    margin: auto;
-
-    padding-bottom:22%;
-  }
-  .navbar-menu-cafe p{
-    font-size: 1.5rem;
-  }
-
-  .navbar-menu-cafe__cafe{
-    padding: 10px 5px; 
+    padding: 2px;
+    padding-bottom:23%;
   }
 
   .navbar-menu-cafe__parte-cafe p{
-      height: 40px;
-      width: 150px;
+    height: 30px;
+    width: 140px;
   }
 
   .navbar-menu-cafe__cafe-boton{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
-
 
   .navbar-menu-cafe__parte-dinero{
-    height: 90px;
-    width: 140px;
-
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    bottom: 0;
-   
+    height: 75px;
+    width: 120px;
+    top: 100px;
   }
 
+
+ 
 
   .navbar-menu-cafe__parte-dinero__pantalla h1{
-      font-size: 0.8rem;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-    border-left: 20px solid #00917c;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-  }
-  .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
-    border-left: 20px solid #00917c;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
+    font-size: 0.6rem;
   }
 
   .navbar-menu-cafe__parte-dinero__pantalla-cafe{
-    width: 50px;
-    height: 50px;
-    background-size: 40px;
-    margin: auto;
+    width: 45px;
+    height: 45px;
+    background-size: 25px;
   }
 
-  .header-content{
-    top: 25%;
+  .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
+    border-left: 13px solid #00917c;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent; 
   }
-
- .header-content__title{
-    font-size: 2rem;
-  }
-
-  .header-content__text{
-    font-size: 2rem;
-  }
-
-
-
-  #section-sobre{
-    flex-direction: column;
-  }
-
-  .section-sobre__img {
-    height: auto;
-    width: 80%;
-    margin: auto;
-    padding: 0;
-  }
-  .section-sobre__img img{
-    height: auto;
-    width: 100%;
-  }
-
-  #section-sobre p {
-    font-size: 2rem;
-  }
-  
-
-  .section-contacto__redes{
-    flex-direction: column;
-  }
-
-  #section-tecnologia{
-    width: 100%;
-    margin: auto;
-    flex-direction: column;
-  }
-  
-  .section-tecnologia__skills{
-    margin: auto;
-  }
-
-  .section-tecnologia__grid-container{
-    grid-template-columns:  1fr 50px 1fr 50px;
- 
-  }
-  #section-tecnologia h3{
-    font-size: 3rem;
-  }
-
-  .section-tecnologia__grid-container p{
-    font-size: 2rem;
-  }
-
-
-  .section-tecnologia__img{
-    height: auto;
-    width: 80%;
-    margin: auto;
-    padding: 0;
-  }
-
-  .section-tecnologia__img img{
-    height: auto;
-    width: 100%;
-  }
- 
-
-
-  #section-trabajo h3{
-    font-size: 3rem;
-  }
-
-  .anio p{
-    font-size: 3rem;
-  }
-
-  .section-trabajo__grid-text p{
-    font-size: 1.5rem;
-    
-  }
-
-  .contenedor__posit{
-    display: none;
-  }
-
-  .section-trabajo__grid{
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  #section-contacto h3{
-    font-size: 3rem;
-  }
-
-  #section-contacto p{
-    font-size: 2rem;
-  }
-
-  .section-contacto__redes-div{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 20px;
-  }
-
-  .section-contacto__redes-div i{
-      margin: auto;
-  }
-
-  .section-contacto__redes a{
-    font-size: 2rem;
-  }
-
-  .section-contacto__redes-div p{
-    font-size: 1rem  !important ;
+  .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
+    border-left: 13px solid #00917c;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent; 
   }
 
 
 }
 
-@media(max-height:500px){
-  .header-content .text{
-    display: none;
+@media(max-width:376px){
+ 
+  .gota-agua{
+    height: 45px;
+    width: 45px;
+    background-size: 25px;
   }
 
-  .header-content {
-    top: 0;
+  .navbar-menu-cafe{
+    padding: 2px;
+    padding-bottom:25%;
+  }
+
+  .navbar-menu-cafe__parte-dinero{
+    height: 70px;
+    width: 120px;
+  }
+}
+
+@media(max-width:321px){
+
+  .navbar-menu-cafe__parte-cafe p{
+    height: 25px;
+    width: 130px;
+    font-size: 0.9rem;
+  }
+
+  .navbar-menu-cafe__parte-dinero__pantalla h1{
+    font-size: 0.6rem;
+  }
+
+  .navbar-menu-cafe__parte-dinero{
+    height: 65px;
+    width: 120px;
+    top: 90px;
+  }
+
+  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
+    width: 40px;
+    height: 40px;
+    background-size: 20px;
   }
 }
