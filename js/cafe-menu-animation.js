@@ -14,20 +14,20 @@ const cafeDer = document.querySelector(".navbar-menu-cafe__parte-dinero__pantall
 const cafes = [
 	{
 		nombre: "EXPRESSO",
-		url: "/img/cafes/cafe-solo.png",
-    url2:"/img/cafes/cafe-solo2.png"
+		url: "../img/cafes/cafe-solo.png",
+    url2:"../img/cafes/cafe-solo2.png"
 	},{
 		nombre: "LATTE",
-		url: "/img/cafes/capuccino.png",
-    url2:"/img/cafes/capuccino-2.png"
+		url: "../img/cafes/capuccino.png",
+    url2:"../img/cafes/capuccino-2.png"
 	},{
 		nombre: "IRLANDÉS",
-		url: "/img/cafes/irlandes.png",
-    url2:"/img/cafes/irlandes-2.png"
+		url: "../img/cafes/irlandes.png",
+    url2:"../img/cafes/irlandes-2.png"
 	},{
 		nombre: "LECHE",
-		url: "/img/cafes/leche.png",
-    url2:"/img/cafes/leche-2.png"
+		url: "../img/cafes/leche.png",
+    url2:"../img/cafes/leche-2.png"
 	}
 ]
 
