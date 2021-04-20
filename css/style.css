@@ -6,11 +6,7 @@ body {
 }
 
 
-
-
-
 /* GOTA DE AGUA*/
-
 .navbar-cafe{
   display: flex;
   padding-top: 10px;
@@ -179,15 +175,8 @@ body {
 
 
 
-
-
-
-
-
 /*HEADER*/
-
 header{
-
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -260,7 +249,6 @@ header{
   justify-content: space-around;
   z-index: 100;
   box-shadow: 3px 4px 4px black;
-
 }
 
 .section-sobre__img{
@@ -320,7 +308,7 @@ header{
 }
 
 .section-tecnologia__img img{
-  height: 700px;
+  height: 600px;
 }
 
 .section-tecnologia__grid-container {
@@ -339,31 +327,27 @@ header{
 }
 
 
-/*EXPERIENCIA*/
+
+
+/*TRABAJO*/
 #section-trabajo{
   display: block;
   position:relative;
-  z-index: 100;
+  z-index: -100;
 }
-
 
 #section-trabajo h3{
   text-align: center;
    font-size: 5rem;
    padding-top: 100px;
-  
    text-shadow: 0px 5px 5px black;
 }
 
-
-
 .section-trabajo__grid{
   display: grid;
-
   grid-template-columns:  1fr 1fr 1fr;
   width: 50%;
   margin: auto;
-
 }
 
 .section-trabajo__grid-text{
@@ -374,7 +358,6 @@ header{
 }
 
 .anio{
-
   text-align: center;
   font-size: 4rem;
   display: inline-block;
@@ -397,7 +380,6 @@ header{
      background: #f8f4e1;
      margin: auto;
      box-shadow: 0px 10px 10px black;
-
 }
 
 .circulo-pequeño{
@@ -411,28 +393,19 @@ header{
      box-shadow: 0px 10px 10px black;
 }
 
-.section-trabajo__grid .contenedor__posit{
-  position: relative;
-  
-}
 
 .contenedor__posit{
   display: none;
   background:#ffffa5;
   width:300px; 
   height:250px;
-
   box-shadow: 0px 5px 5px black;
-
-transform: rotate(-3deg);
-
-position: absolute;
+  transform: rotate(-3deg);
+  position: absolute;
   left: 80%;
   bottom: 20px;
   padding: 20px;
-
 }
-
 
 .contenedor__posit p{
   font-size:20px;
@@ -564,8 +537,6 @@ position: absolute;
   color: #f8f4e1;
 }
 
-
-
 footer {
   padding: 2.2rem;
 }
@@ -578,12 +549,6 @@ footer div {
 footer p {
   text-align: center;
 }
-
-
-.superponer{
-  z-index: 4000;
-}
-
 
 
 
@@ -621,11 +586,8 @@ h1 {
   box-shadow: -5px 5px 0 0 black;
   position: relative;
   margin: auto;
-}
 
-.check{
   animation: start 2s ease infinite both;
-  /* Override default play state paused of codepen iframe */
   animation-play-state: running!important;
   animation-delay: 1s;
 }
@@ -652,10 +614,7 @@ h1 {
 .pacman-holder{
   position:relative;
   margin: auto ;
-  
-
 }
-
 
 .pacman-container { /*BOCA*/
   display:block;
@@ -686,7 +645,6 @@ h1 {
   border-radius: 50px;
   clip: rect(0px, 50px, 100px, 0px);
   z-index: 102;
-  
 }
 
 
@@ -695,27 +653,21 @@ h1 {
   left:2px;
   width: 102px;
   height: 102px;
-
   border-radius: 50px;
   clip: rect(0px, 100px, 100px, 52px);
-  
 }
 
 
 .pacman-mouth .pacman {
   background-color: #4e3620;
-
   transform:rotate(90deg);
-
   animation: munch 0.5s linear infinite;
 
-/* To fix a yellow border on pacman's mouth */
-border: 3px solid #4e3620;
-
+  /* To fix a yellow border on pacman's mouth */
+  border: 3px solid #4e3620;
 }
 
 .pacman-holder.moving{
-
   animation: move 7s linear infinite;
 }
 
@@ -766,46 +718,22 @@ border: 3px solid #4e3620;
 
 
 
-
 /*RESPONSIBE*/
 /*----------------------------------------------------------*/
-@media(max-width:1366px){
+/*------------------- 1440 ---------------------------------*/
+/*----------------------------------------------------------*/
+@media(max-width:1440px){
 
- 
-  /*NAVBAR*/
-  .navbar-menu-cafe{
-    margin: auto;
-    padding: 10px;
-    padding-bottom:15%;
-    
+  .header-content{
+    top: 300px;
+  }
+  
+ .header-content__title{
+    font-size: 5rem;
   }
 
-  .navbar-menu-cafe p{
-    font-size: 1.5rem;
-  }
-
-  .navbar-menu-cafe__parte-cafe p{
-    height: 50px;
-    width: 180px;
-  }
-
-
-  .navbar-menu-cafe__parte-dinero{
-    height: 120px;
-    width: 250px;
-    position: absolute;
-    top: 75px;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla h1{
-      font-size: 1rem;
-  }
-
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
-    width: 50px;
-    height: 50px;
-    background-size: 60px;
+  .header-content__text{
+    font-size: 3rem;
   }
 
 
@@ -827,10 +755,8 @@ border: 3px solid #4e3620;
      padding: 0;
   }
 
- 
 
   /*TECNOLOGÍA*/
-
   .section-tecnologia__skills{
     display: block;
     margin-top: 30px;
@@ -840,7 +766,6 @@ border: 3px solid #4e3620;
   .section-tecnologia__skills h3{
      font-size: 4rem;
    }
-  
   
   .section-tecnologia__img img{
     width: 600px;
@@ -860,22 +785,48 @@ border: 3px solid #4e3620;
   
 
 
-
-
-
   /* TRABAJO*/
-
-  #section-trabajo{
-    display: none;
+  #section-trabajo h3{
+     font-size: 4rem;
+     padding-top: 50px;
+     
   }
-
-  .anio{
-    padding-left: 0px;
+  
+  .section-trabajo__grid{
+    width: 60%;
   }
-
+  
   .section-trabajo__grid-text{
     font-size: 2.5rem;
   }
+  
+  .anio{
+    padding-left: 100px;
+  }
+  
+  .anio p{
+    font-size: 3.5rem;
+  }
+
+
+
+  @keyframes move
+  {
+  0% {
+    transform: scaleX(1);           
+    top:0px;
+  }
+
+  49.999% {
+    top:500px;
+    transform: scaleX(1);
+  }
+
+  100% {
+      top:1000px;
+    }          
+  }
+
 
 
 
@@ -884,7 +835,7 @@ border: 3px solid #4e3620;
 
 #section-contacto{
   padding-bottom: 30px;
- 
+  
 }
 
 .section-contacto__CURRICULUM{
@@ -923,13 +874,55 @@ font-size: 2rem;
   font-size: 1rem !important;
 }
 
+}
 
 
+/*----------------------------------------------------------*/
+/*------------------ 1366 ----------------------------------*/
+/*----------------------------------------------------------*/
+@media(max-width:1366px){
+
+/*NAVBAR*/
+.navbar-menu-cafe{
+  margin: auto;
+  padding: 10px;
+  padding-bottom:15%;  
+}
+
+.navbar-menu-cafe p{
+  font-size: 1.5rem;
+}
+
+.navbar-menu-cafe__parte-cafe p{
+  height: 50px;
+  width: 180px;
+}
+
+
+.navbar-menu-cafe__parte-dinero{
+  height: 120px;
+  width: 250px;
+  position: absolute;
+  top: 75px;
+}
+
+.navbar-menu-cafe__parte-dinero__pantalla h1{
+    font-size: 1rem;
+}
+
+
+.navbar-menu-cafe__parte-dinero__pantalla-cafe{
+  width: 50px;
+  height: 50px;
+  background-size: 60px;
+}
 
 }
 
 
-
+/*----------------------------------------------------------*/
+/*------------------ 1024 ----------------------------------*/
+/*----------------------------------------------------------*/
 @media(max-width:1024px){
 
   /*NAVBAR*/
@@ -961,7 +954,9 @@ font-size: 2rem;
   
 
 
-
+  .header-content{
+    top: 250px;
+  }
 
  .header-content__title{
     font-size: 4rem;
@@ -1029,13 +1024,78 @@ font-size: 2rem;
 
 
 
+/*TRABAJO*/
+
+  #section-trabajo h3{
+    font-size: 3.5rem;
+    padding-top: 40px;
+ }
+ 
+ .section-trabajo__grid{
+   width: 70%;
+ }
+ 
+ .section-trabajo__grid-text{
+   font-size: 2rem;
+ }
+ 
+ .anio{
+   padding-left: 50px;
+ }
+ 
+ .anio p{
+   font-size: 3rem;
+ }
 
 
-  #section-trabajo{
-    display: none;
-  }
+
+ /*PACMAN*/
+
+ .pacman-container { /*BOCA*/
+  width: 90px;
+  height: 90px;
+}
+
+.pacman-body {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+}
+
+.pacman {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  clip: rect(0px, 45px, 90px, 0px);
+}
+
+.pacman-mouth {
+  width: 92px;
+  height: 92px;
+  border-radius: 47px;
+  clip: rect(0px, 90px, 90px, 47px);
+}
+ .pacman-holder.moving{
+  animation: move 6s linear infinite;
+}
 
 
+@keyframes move
+{
+0% {
+  transform: scaleX(1);           
+  top:0px;
+}
+
+49.999% {
+  top:425px;
+  transform: scaleX(1);
+}
+
+100% {
+    top:850px;
+  }          
+}
 
 
 
@@ -1047,8 +1107,9 @@ font-size: 2rem;
 
 
 
-
-
+/*----------------------------------------------------------*/
+/*------------------ 768 -----------------------------------*/
+/*----------------------------------------------------------*/
 @media(max-width:768px){
 
   .gota-agua{
@@ -1057,6 +1118,8 @@ font-size: 2rem;
     background-size: 40px;
     margin: auto;
   }
+
+ 
 
 
   /*NAVBAR*/
@@ -1104,6 +1167,19 @@ font-size: 2rem;
     margin: auto;
   }
 
+
+/*HEADER*/
+  .header-content{
+    top: 170px;
+  }
+
+  .header-content__title{
+    font-size: 3rem;
+  }
+
+  .header-content__text{
+    font-size: 2rem;
+  }  
 
 
 /*SOBRE*/
@@ -1192,6 +1268,97 @@ font-size: 2rem;
 }
 
 
+/*TRABAJO*/
+
+#section-trabajo h3{
+  font-size: 3rem;
+  padding-top: 40px;
+}
+
+.section-trabajo__grid{
+ width: 90%;
+}
+
+.section-trabajo__grid-text{
+ font-size: 1.5rem;
+}
+
+.anio{
+ padding-left: 30px;
+}
+
+.anio p{
+ font-size: 2.5rem;
+}
+
+.circulo{
+  width: 25px;
+  height: 25px;
+ }
+ 
+ .circulo-pequeño{
+  width: 13px;
+  height: 13px;
+ }
+ 
+
+
+  /*COMECOCOS*/
+
+  .pacman-container { /*BOCA*/
+    width: 80px;
+    height: 80px;
+  }
+
+  .pacman-body {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+  }
+
+  .pacman {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    clip: rect(0px, 40px, 80px, 0px);
+  }
+
+  .pacman-mouth {
+    width: 82px;
+    height: 82px;
+    border-radius: 40px;
+    clip: rect(0px, 80px, 80px, 42px);
+  }
+
+  .pacman-holder.moving{
+    animation: move 7s linear infinite;
+  }
+
+  @keyframes move
+  {
+  0% {
+    transform: scaleX(1);           
+    top:0px;
+  }
+
+  49.999% {
+    top:350px;
+    transform: scaleX(1);
+  }
+
+  100% {
+      top:700px;
+    }          
+  }
+
+
+
+
+
+
+
+
+
 
 
   /*CONTACTO*/
@@ -1237,7 +1404,9 @@ font-size: 2rem;
 
 
 
-
+/*----------------------------------------------------------*/
+/*------------------ 561 -----------------------------------*/
+/*----------------------------------------------------------*/
 @media(max-width:561px){
   .gota-agua{
     height: 60px;
@@ -1258,8 +1427,6 @@ font-size: 2rem;
       width: 150px;
   }
 
-  
- 
   .navbar-menu-cafe p{
     font-size: 1.1rem;
   }
@@ -1304,17 +1471,19 @@ font-size: 2rem;
 
 
 
+  /*HEADER*/
+  
   .header-content{
-    top: 25%;
+    top: 140px;
   }
 
- .header-content__title{
+  .header-content__title{
     font-size: 2rem;
   }
 
   .header-content__text{
-    font-size: 2rem;
-  }
+    font-size: 1.2rem;
+  } 
 
 
 
@@ -1378,6 +1547,44 @@ font-size: 2rem;
 
  
 
+/*TRABAJO*/
+#section-trabajo h3{
+  font-size: 3rem;
+  padding-top: 40px;
+}
+
+.section-trabajo__grid{
+ grid-template-columns:  1fr 1fr 1fr;
+ width: 95%;
+}
+
+.section-trabajo__grid-text{
+ text-align: center;
+ font-size: 1rem;
+ margin: auto;
+}
+
+.anio{
+ padding-left: 30px;
+ padding: 0;
+}
+
+.anio p{
+ font-size: 2rem;
+
+}
+
+.circulo{
+ width: 20px;
+ height: 20px;
+}
+
+.circulo-pequeño{
+ width: 10px;
+ height: 10px;
+}
+
+
 
 
 
@@ -1426,7 +1633,9 @@ font-size: 2rem;
 
 
 
-
+/*----------------------------------------------------------*/
+/*------------------ 426 -----------------------------------*/
+/*----------------------------------------------------------*/
 @media(max-width:426px){
 
   .gota-agua{
@@ -1457,9 +1666,6 @@ font-size: 2rem;
     top: 100px;
   }
 
-
- 
-
   .navbar-menu-cafe__parte-dinero__pantalla h1{
     font-size: 0.6rem;
   }
@@ -1480,6 +1686,25 @@ font-size: 2rem;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent; 
   }
+
+  
+  /*HEADER*/
+  
+  .header-content{
+    top: 140px;
+  }
+
+  .header-content__title{
+    font-size: 2rem;
+    padding: 0px 30px;
+  }
+
+  .header-content__text{
+    font-size: 1rem;
+    padding: 10px;
+  } 
+
+
 
 
 
@@ -1526,6 +1751,59 @@ font-size: 2rem;
     }
   }
 
+
+  /*COMECOCOS*/
+  .pacman-container { 
+    width: 60px;
+    height: 60px;
+    animation: bite 0.5s linear infinite;
+  }
+
+  .pacman-body {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+
+  .pacman {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    clip: rect(0px, 30px, 60px, 0px);
+  }
+
+  .pacman-mouth {
+    left:0px;
+    width: 62px;
+    height: 62px;
+    border-radius: 30px;
+    clip: rect(0px, 60px, 60px, 32px);
+  }
+
+  .pacman-mouth .pacman {
+    animation: munch 0.5s linear infinite;
+  }
+
+  .pacman-holder.moving{
+    animation: move 6s linear infinite;
+  }
+
+  @keyframes move
+  {
+  0% {
+    transform: scaleX(1);           
+    top:0px;
+  }
+
+  49.999% {
+    top:280px;
+    transform: scaleX(1);
+  }
+
+  100% {
+      top:560px;
+    }          
+  }
 }
 
 @media(max-width:376px){
@@ -1571,8 +1849,14 @@ font-size: 2rem;
   }
 
 
+  
+
 }
 
+
+/*----------------------------------------------------------*/
+/*------------------ 321 -----------------------------------*/
+/*----------------------------------------------------------*/
 @media(max-width:321px){
 
   .navbar-menu-cafe__parte-cafe p{
