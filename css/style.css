@@ -167,7 +167,6 @@ body {
 
 .navbar-menu-cafe__parte-dinero__pantalla-cafe:hover{
   background-image: url("../img/cafes/cafe-solo.png");
-  background-image: url("/img/cafes/cafe-solo2.png");
 }
 
 
@@ -313,7 +312,7 @@ header{
 
 .section-tecnologia__grid-container {
   display: grid ;
-  grid-template-columns: 1fr 150px 1fr 50px;
+  grid-template-columns: 1fr 50px 1fr 50px;
 }
 
 .section-tecnologia_grid-container__element{
@@ -321,7 +320,7 @@ header{
 }
 
 .section-tecnologia_grid-container__element p{
-  font-size: 3rem;
+  font-size: 2.8rem;
   padding: 0 40px;
   text-shadow: 0px 5px 5px black;
 }
@@ -918,6 +917,33 @@ font-size: 2rem;
 }
 
 }
+
+
+/*----------------------------------------------------------*/
+/*------------------ 1366 ----------------------------------*/
+/*----------------------------------------------------------*/
+@media(max-width:1199px){
+
+  /*TECNOLOGIA*/
+  
+ 
+ .section-tecnologia__img img{
+   width: 550px;
+   height: auto;
+ }
+ 
+ .section-tecnologia__grid-container {
+   grid-template-columns: 1fr 50px 1fr 50px;
+   padding: 0;
+ }
+ 
+
+ .section-tecnologia_grid-container__element p{
+   font-size: 1.5rem;
+ }
+
+}
+
 
 
 /*----------------------------------------------------------*/
@@ -1710,7 +1736,7 @@ font-size: 2rem;
 
   /*TECNOLOGÍA*/
   .section-tecnologia__img img{
-    width: 350px;
+    width: 330px;
     height: auto;
   }
 
@@ -1751,6 +1777,10 @@ font-size: 2rem;
     }
   }
 
+
+  #section-trabajo h3{
+    padding: 5px;
+  }
 
   /*COMECOCOS*/
   .pacman-container { 
@@ -1806,6 +1836,13 @@ font-size: 2rem;
   }
 }
 
+
+
+
+/*----------------------------------------------------------*/
+/*------------------ 376 -----------------------------------*/
+/*----------------------------------------------------------*/
+
 @media(max-width:376px){
  
   .gota-agua{
@@ -1834,7 +1871,7 @@ font-size: 2rem;
    /*TECNOLOGÍA*/
 
    .section-tecnologia__img img{
-    width: 340px;
+    width: 300px;
     height: auto;
   }
 
@@ -1883,14 +1920,21 @@ font-size: 2rem;
 
 
   /*SOBRE*/
+  #section-sobre h3{
+    font-size: 2.5rem;
+  }
+
   .section-sobre__img img{
     width: 250px;
   }
 
   /*TECNOLOGÍA*/
 
+  #section-tecnologia h3{
+    font-size: 2.5rem;
+  }
   .section-tecnologia__img img{
-    width: 300px;
+    width: 270px;
     height: auto;
   }
 
@@ -1903,8 +1947,16 @@ font-size: 2rem;
     padding: 15px;
   }
 
+  /*TRABAJO*/
+  #section-trabajo h3{
+    font-size: 2.5rem;
+  }
+
 
   /*CONTACTO*/
+  #section-contacto h3{
+    font-size: 2.5rem;
+  }
   .section-contacto__redes-div{
     height: 130px;
     margin: 20px;
