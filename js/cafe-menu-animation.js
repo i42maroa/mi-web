@@ -1,8 +1,6 @@
 const cafe_boton = document.querySelector(".navbar-cafe");
 const imagen_boton = document.querySelector(".gota-agua");
 
-
-
 const nav = document.querySelector(".navbar-menu-cafe");
 const navContenedor = document.querySelector(".navbar");
 const cafeHecho = document.querySelector(".navbar-menu-cafe__parte-dinero__pantalla-cafe");
@@ -10,6 +8,8 @@ const cafeHechoTitulo = document.querySelector(".navbar-menu-cafe__parte-dinero 
 
 const cafeIzq = document.querySelector(".navbar-menu-cafe__parte-dinero__pantalla-cambIzq");
 const cafeDer = document.querySelector(".navbar-menu-cafe__parte-dinero__pantalla-cambDer");
+
+
 
 const cafes = [
 	{
@@ -49,6 +49,11 @@ cafeHecho.addEventListener("click", () => {
   nav.style.display = "none";
   navContenedor.style.background = "none";
     cafe_boton.style.display = "flex";
+
+    var reproducir = new Audio();
+  reproducir.src= "audio/cafetera.mp3";
+  reproducir.volume = 0.5;
+    reproducir.play();
 });
 
 cafeIzq.addEventListener("click", () => {  
