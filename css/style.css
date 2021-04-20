@@ -16,7 +16,7 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  background-image: url("img/cafes/cafe-solo.png");
+  background-image: url("../img/cafes/cafe-solo.png");
   background-color: #00917c;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
 }
 
 .gota-agua:hover{
-  background-image: url("img/cafes/cafe-solo2.png");
+  background-image: url("../img/cafes/cafe-solo2.png");
   background-color: #025955;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,6 +257,7 @@ header{
   width: auto;
   margin: auto;
 }
+
 
 .section-sobre__explicacion h3{
   text-align: center;
@@ -1548,7 +1549,7 @@ font-size: 2rem;
 
   
   #section-sobre{
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: auto;
   }
 
@@ -1764,12 +1765,12 @@ font-size: 2rem;
   }
 
   .header-content__title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 0px 30px;
   }
 
   .header-content__text{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 10px;
   } 
 
@@ -1779,6 +1780,7 @@ font-size: 2rem;
     width: 300px;
     height: auto;
     padding: 0;
+
   }
 
 
@@ -1828,7 +1830,7 @@ font-size: 2rem;
 
 
   #section-trabajo h3{
-    padding: 5px;
+    padding: 0px 10px;
   }
 
   /*COMECOCOS*/
