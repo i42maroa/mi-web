@@ -51,8 +51,8 @@ cafeHecho.addEventListener("click", () => {
     cafe_boton.style.display = "flex";
 
     var reproducir = new Audio();
-  reproducir.src= "audio/cafetera.mp3";
-  reproducir.volume = 0.5;
+    reproducir.src= "./audio/cafetera.mp3";
+    reproducir.volume = 0.5;
     reproducir.play();
 });
 
