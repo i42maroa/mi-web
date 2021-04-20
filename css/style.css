@@ -16,7 +16,7 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  background-image: url("../img/cafes/cafe-solo.png");
+  background-image: url("img/cafes/cafe-solo.png");
   background-color: #00917c;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
 }
 
 .gota-agua:hover{
-  background-image: url("../img/cafes/cafe-solo2.png");
+  background-image: url("img/cafes/cafe-solo2.png");
   background-color: #025955;
   background-position: center;
   background-repeat: no-repeat;
