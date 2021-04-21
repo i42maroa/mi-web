@@ -11,21 +11,21 @@ const cafeDer = document.querySelector(".navbar-menu-cafe__parte-dinero__pantall
 
 const section_sobre = document.querySelector("#section-sobre");
 const section_sobre_h3 = document.querySelector(".section-sobre__explicacion h3");
-const section_sobre_p = document.querySelector(".section-sobre__explicacion p");
+const section_sobre_p = document.querySelectorAll(".section-sobre__explicacion p");
 
 const section_tecnologia = document.querySelector("#section-tecnologia");
 const section_tecnologia_h3 = document.querySelector(".section-tecnologia__skills h3");
-const section_tecnologia_p = document.querySelector(".section-tecnologia_grid-container__element p");
+const section_tecnologia_p = document.querySelectorAll(".section-tecnologia_grid-container__element p");
 
 const section_trabajo = document.querySelector("#section-trabajo");
 const section_trabajo_h3 = document.querySelector("#section-trabajo h3");
-const section_trabajo_p_anio = document.querySelector(".anio p");
-const section_trabajo_p_texto = document.querySelector(".section-trabajo__grid-text");
+const section_trabajo_p_anio = document.querySelectorAll(".anio p");
+const section_trabajo_p_texto = document.querySelectorAll(".section-trabajo__grid-text");
 
 const section_contacto = document.querySelector("#section-contacto");
 const section_contacto_h3 = document.querySelector("#section-contacto h3");
-const section_contacto_a = document.querySelector("#section-contacto a");
-const section_contacto_p = document.querySelector("#section-contacto p");
+const section_contacto_a = document.querySelectorAll("#section-contacto a");
+const section_contacto_p = document.querySelectorAll("#section-contacto p");
 
 
 
@@ -184,18 +184,37 @@ cafeHecho.addEventListener("click", () => {
 
     section_sobre.style.background = colores[cont].colores_sections[0].colB;
     section_sobre_h3.style.color = colores[cont].colores_sections[0].colH3;
-    section_sobre_p.style.color = colores[cont].colores_sections[0].colP;
+    for (var x = 0; x < section_sobre_p.length; x++) {
+        section_sobre_p[x].style.color = colores[cont].colores_sections[0].colP;
+    }
+
     section_tecnologia.style.background = colores[cont].colores_sections[1].colB;
     section_tecnologia_h3.style.color = colores[cont].colores_sections[1].colH3;
-    section_tecnologia_p.style.color = colores[cont].colores_sections[1].colP;
+
+    for (var x = 0; x < section_tecnologia_p.length; x++) {
+        section_tecnologia_p[x].style.color = colores[cont].colores_sections[1].colP;
+    }
+
     section_trabajo.style.background = colores[cont].colores_sections[2].colB;
     section_trabajo_h3.style.color = colores[cont].colores_sections[2].colH3;
-    section_trabajo_p_anio.style.color = colores[cont].colores_sections[2].colP_A;
-    section_trabajo_p_texto.style.color = colores[cont].colores_sections[2].colP_T;
+
+    for (var x = 0; x < section_trabajo_p_anio.length; x++) {
+        section_trabajo_p_anio[x].style.color = colores[cont].colores_sections[2].colP_A;
+    }
+
+    for (var x = 0; x < section_trabajo_p_texto.length; x++) {
+        section_trabajo_p_texto[x].style.color = colores[cont].colores_sections[2].colP_T;
+    }
+
     section_contacto.style.background = colores[cont].colores_sections[3].colB;
     section_contacto_h3.style.color = colores[cont].colores_sections[3].colH3;
-    section_contacto_a.style.color = colores[cont].colores_sections[3].colA;
-    section_contacto_p.style.color = colores[cont].colores_sections[3].colP;
+
+    for (var x = 0; x < section_contacto_a.length; x++) {
+        section_contacto_a[x].style.color = colores[cont].colores_sections[3].colA;
+    }
+    for (var x = 0; x < section_contacto_p.length; x++) {
+        section_contacto_p[x].style.color = colores[cont].colores_sections[3].colP;
+    }
 
     //Reproduce el sonido de la máquina
     reproducir.volume = 0.5;
