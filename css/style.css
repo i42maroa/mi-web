@@ -1,112 +1,113 @@
 body {
-  background: #4e3620;
-  margin: 0;
-  color: #f8f4e1;
-  font-family: "New Tegomin", serif;
+    background: #4e3620;
+    margin: 0;
+    color: #f8f4e1;
+    font-family: "New Tegomin", serif;
 }
 
 
 /* GOTA DE AGUA*/
-.navbar-cafe{
-  display: flex;
-  padding-top: 10px;
+
+.navbar-cafe {
+    display: flex;
+    padding-top: 10px;
 }
 
-.gota-agua{
-  width: 70px;
-  height: 70px;
-  border-radius: 50px;
-  background-image: url("../img/cafes/cafe-solo.png");
-  background-color: #00917c;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 50px;
-  display: flex;
-  margin: auto;
-  box-shadow: 0px 10px 10px black;
-  cursor: pointer;
+.gota-agua {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-image: url("../img/cafes/cafe-solo.png");
+    background-color: #00917c;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 10px 10px black;
+    cursor: pointer;
 }
 
-.gota-agua:hover{
-  background-image: url("../img/cafes/cafe-solo2.png");
-  background-color: #025955;
-  background-position: center;
-  background-repeat: no-repeat;
+.gota-agua:hover {
+    background-image: url("../img/cafes/cafe-solo2.png");
+    background-color: #025955;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
 /*NAVBAR*/
+
+
 /*------------------------------------------------*/
-.navbar{
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  background: none;
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: none;
 }
 
-.navbar-menu-cafe{
-  display: flex;
-  background-color: #4e3620;
-  justify-content: space-around;
-  box-shadow: 0px 10px 10px black;
-  display: none;
+.navbar-menu-cafe {
+    display: flex;
+    background-color: #4e3620;
+    justify-content: space-around;
+    box-shadow: 0px 10px 10px black;
+    display: none;
 }
 
-.navbar-menu-cafe__cafe{
-  display: flex;
-  margin: auto;
-  padding: 5px 10px;  
+.navbar-menu-cafe__cafe {
+    display: flex;
+    margin: auto;
+    padding: 5px 10px;
 }
 
-.navbar-menu-cafe__parte-cafe{
-  display: flex;
-  justify-content: space-around;
+.navbar-menu-cafe__parte-cafe {
+    display: flex;
+    justify-content: space-around;
 }
 
-.navbar-menu-cafe__parte-cafe p{
-  font-size: 2rem;
-  width: 220px;
-  text-align: center;
-  padding: 2%;
-  color: #4e3620;
-  background: #f8f4e1;
-  border-radius: 5px;
-  font-family: 'Oswald', sans-serif;
-  text-decoration:none;
-  margin: auto 5%;
-  box-shadow: 0px 10px 10px black;
+.navbar-menu-cafe__parte-cafe p {
+    font-size: 2rem;
+    width: 220px;
+    text-align: center;
+    padding: 2%;
+    color: #4e3620;
+    background: #f8f4e1;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    margin: auto 5%;
+    box-shadow: 0px 10px 10px black;
 }
 
-.navbar-menu-cafe__cafe-boton{
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: #00917c;
-  margin: auto;
-  box-shadow: 0px 10px 10px black;
+.navbar-menu-cafe__cafe-boton {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #00917c;
+    margin: auto;
+    box-shadow: 0px 10px 10px black;
 }
 
-.navbar-menu-cafe__cafe-boton:hover{
-  background: #025955;
+.navbar-menu-cafe__cafe-boton:hover {
+    background: #025955;
 }
 
-
-.navbar-menu-cafe__parte-dinero{
-  height: 30%;
-  width: 15%;
-  background: #000;
-  margin: 20px 0px;
-  border-radius: 10px;
-  box-shadow: 0px 10px 10px black;
-
-  display: flex;
-  flex-direction: column;
-  
+.navbar-menu-cafe__parte-dinero {
+    height: 30%;
+    width: 15%;
+    background: #000;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+    display: flex;
+    flex-direction: column;
 }
 
-.navbar-menu-cafe__parte-dinero__pantalla{
+.navbar-menu-cafe__parte-dinero__pantalla {
     width: 100%;
     height: 20%;
     background: #897853;
@@ -114,1918 +115,1589 @@ body {
     margin: 10px auto;
 }
 
-
-.navbar-menu-cafe__parte-dinero h1{
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  margin: auto;
-}
-
-.cont{
-  display: flex;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  justify-content: space-around;
-}
-
-.navbar-menu-cafe__parte-dinero__pantalla-cambIzq{
-  border-left: 30px solid #00917c;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent; 
-  margin: auto;
-  cursor: pointer;
-  transform: rotate(180deg);
-}
-
-.navbar-menu-cafe__parte-dinero__pantalla-cambIzq:hover .navbar-menu-cafe__parte-dinero__pantalla-cambDer:hover{
-  border-left: 30px solid #025955;
-}
-
-.navbar-menu-cafe__parte-dinero__pantalla-cambDer{
-  height: 0; 
-  border-left: 30px solid #00917c;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent; 
-  margin: auto;
-  cursor: pointer;
-}
-
-
-
-.navbar-menu-cafe__parte-dinero__pantalla-cafe{
-  width: 85px;
-  height: 85px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../img/cafes/cafe-solo.png");
-  background-size: 70px;
-  margin: 10px auto;
-  cursor: pointer;
-}
-
-.navbar-menu-cafe__parte-dinero__pantalla-cafe:hover{
-  background-image: url("../img/cafes/cafe-solo.png");
-}
-
-
-
-
-
-
-/*HEADER*/
-header{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 0;
-}
-
-
-.header-content__title{
-  text-align: center;
-  font-size: 8rem;
-  display: inline-block;
-  margin: auto;
-  text-shadow: 0px 5px 5px black;
-}
-
-.header-content__text{
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-  font-size: 4rem;
-  text-shadow: 0px 5px 5px black;
-}
-
-
-
-#header-video__video{
-  width: 100%;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  overflow: hidden;
-}
-
-#header-video__video-2{
-  display: none;
-  width: 100%;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  overflow: hidden;
-}
-
-#header-video__video-3{
-  display: none;
-  width: 100%;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  overflow: hidden;
-}
-
-
-.header-content {
-  position: absolute;
-  top: 20%;
-  transition: all 1000;
-}
-
-
-
-
-
-
-/*SOBRE MI*/
-/*------------------------------------------*/
-#section-sobre{
-  display: flex;
-  justify-content: space-around;
-  z-index: 100;
-  box-shadow: 3px 4px 4px black;
-}
-
-.section-sobre__img{
-  display: block ;
-  transform: rotate(-2deg);
-  margin: auto;
-  padding: 50px;
-}
-
-.section-sobre__img img{
-  height: 1000px;
-  width: auto;
-  margin: auto;
-}
-
-
-.section-sobre__explicacion h3{
-  text-align: center;
-   font-size: 5rem;
-   padding: 0;
-   text-shadow: 0px 2px 2px black;
-}
-
-.section-sobre__explicacion{
-  margin: 0px 50px;
-}
-.section-sobre__explicacion p{
-  font-size: 2rem;
-  padding: 20px;
-}
-
-
-
-
-
-/*TECNOLOGIA*/
-#section-tecnologia{
-  display: flex;
-  justify-content: space-around;
-}
-
-.section-tecnologia__skills{
-  display: block;
-  margin: 30px;
-  margin: auto;
-}
-
-.section-tecnologia__skills h3{
-  text-align: center;
-   font-size: 5rem;
-   text-shadow: 0px 5px 5px black;
- }
-
-.section-tecnologia__img{
-  display: block;
-  margin: auto;
-  transform: rotate(1deg);
-}
-
-.section-tecnologia__img img{
-  height: 600px;
-}
-
-.section-tecnologia__grid-container {
-  display: grid ;
-  grid-template-columns: 1fr 50px 1fr 50px;
-}
-
-.section-tecnologia_grid-container__element{
-  display: flex;
-}
-
-.section-tecnologia_grid-container__element p{
-  font-size: 2.8rem;
-  padding: 0 40px;
-  text-shadow: 0px 5px 5px black;
-}
-
-
-
-
-/*TRABAJO*/
-#section-trabajo{
-  display: block;
-  position:relative;
-  z-index: -100;
-}
-
-#section-trabajo h3{
-  text-align: center;
-   font-size: 5rem;
-   padding-top: 100px;
-   text-shadow: 0px 5px 5px black;
-}
-
-.section-trabajo__grid{
-  display: grid;
-  grid-template-columns:  1fr 1fr 1fr;
-  width: 50%;
-  margin: auto;
-}
-
-.section-trabajo__grid-text{
-  text-align: center;
-  font-size: 3rem;
-  text-shadow: 0px 5px 5px black;
-  margin: auto;
-}
-
-.anio{
-  text-align: center;
-  font-size: 4rem;
-  display: inline-block;
-  margin: auto;
-  padding-left: 100px;
-  text-shadow: 0px 5px 5px black;
-}
-
-.anio p{
-  font-size: 4rem;
-}
-
-
-.circulo{
-  width: 30px;
-     height: 30px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background: #f8f4e1;
-     margin: auto;
-     box-shadow: 0px 10px 10px black;
-}
-
-.circulo-pequeño{
-  width: 20px;
-     height: 20px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background: #f8f4e1;
-     margin: auto;
-     box-shadow: 0px 10px 10px black;
-}
-
-
-.contenedor__posit{
-  display: none;
-  background:#ffffa5;
-  width:300px; 
-  height:250px;
-  box-shadow: 0px 5px 5px black;
-  transform: rotate(-3deg);
-  position: absolute;
-  left: 80%;
-  bottom: 20px;
-  padding: 20px;
-}
-
-.contenedor__posit p{
-  font-size:20px;
-  color: #000;
-  margin: 10px;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-.contenedor__posit b{
-  margin-top: 20px;
-}
-
-.contenedor__posit a{
-  font-size:15px;
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 5px;
-}
-
-.contenedor__posit a:hover{
-  text-decoration:underline;
-}
-
-
-
-
-/*CONTACTO*/
-#section-contacto{
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-
-  z-index: 10000;
-  box-shadow: 3px 5px 5px black;
-  padding-bottom: 30px;
-}
-
-.section-contacto__CURRICULUM{
-  display: inline-block;
-  margin: auto;
-  background: #025955;
-  border-radius: 6px;
-  color: #f8f4e1;
-
-  border-color: #00af91;
-   
-  text-align: center;
-      font-family: "New Tegomin", serif;
-      font-size: 2rem;
-    
-      -webkit-transition-duration: 0.4s; /* Safari */
-      transition-duration: 0.45s;
-      cursor: pointer;
-      padding: 10px;
-      text-decoration: none;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      box-shadow: 3px 5px 5px black;
-}
-
-.section-contacto__CURRICULUM:hover {
-  background-color: #00917c;
-  color: #f8f4e1;
-}
-
-#section-contacto p{
-  text-align: center;
-  font-size: 3rem;
-  padding: 0 40px;
-  font-size: 2rem;
-}
-
-.section-contacto__redes a{
-  text-align: center;
-  font-size: 3rem;
-  text-shadow: 0px 1px 1px black;
-  color: #4e3620;
-  text-decoration:none;
-  margin: 10px;
-}
-
-#section-contacto h3{
-  text-align: center;
-  font-size: 5rem;
-  text-shadow: 0px 1px 1px black;
-  color: #4e3620;
-  text-decoration:none;
-}
-
-
-.section-contacto__redes{
-  display: flex;  
-  justify-content: space-around;
-  padding: 70px 80px;
-  margin: auto;
-}
-
-
-
-.section-contacto__redes-div{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding: 20px;
-}
-
-.section-contacto__redes-div i{
+.navbar-menu-cafe__parte-dinero h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
     margin: auto;
 }
 
-.section-contacto__redes a{
-  font-size: 3rem;
+.cont {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
 }
 
-.section-contacto__redes-div p{
-  font-size: 1.5rem  !important;
+.navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
+    border-left: 30px solid #00917c;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin: auto;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.navbar-menu-cafe__parte-dinero__pantalla-cambIzq:hover .navbar-menu-cafe__parte-dinero__pantalla-cambDer:hover {
+    border-left: 30px solid #025955;
+}
+
+.navbar-menu-cafe__parte-dinero__pantalla-cambDer {
+    height: 0;
+    border-left: 30px solid #00917c;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin: auto;
+    cursor: pointer;
+}
+
+.navbar-menu-cafe__parte-dinero__pantalla-cafe {
+    width: 85px;
+    height: 85px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/cafes/cafe-solo.png");
+    background-size: 70px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.navbar-menu-cafe__parte-dinero__pantalla-cafe:hover {
+    background-image: url("../img/cafes/cafe-solo.png");
 }
 
 
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.header-content__title {
+    text-align: center;
+    font-size: 8rem;
+    display: inline-block;
+    margin: auto;
+    text-shadow: 0px 5px 5px black;
+}
+
+.header-content__text {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 0px 5px 5px black;
+}
+
+#header-video__video {
+    width: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    overflow: hidden;
+}
+
+#header-video__video-2 {
+    display: none;
+    width: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    overflow: hidden;
+}
+
+#header-video__video-3 {
+    display: none;
+    width: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    overflow: hidden;
+}
+
+.header-content {
+    position: absolute;
+    top: 20%;
+    transition: all 1000;
+}
+
+
+/*SOBRE MI*/
+
+
+/*------------------------------------------*/
+
+#section-sobre {
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+    box-shadow: 3px 4px 4px black;
+}
+
+.section-sobre__img {
+    display: block;
+    transform: rotate(-2deg);
+    margin: auto;
+    padding: 50px;
+}
+
+.section-sobre__img img {
+    height: 1000px;
+    width: auto;
+    margin: auto;
+}
+
+.section-sobre__explicacion h3 {
+    text-align: center;
+    font-size: 5rem;
+    padding: 0;
+    text-shadow: 0px 2px 2px black;
+}
+
+.section-sobre__explicacion {
+    margin: 0px 50px;
+}
+
+.section-sobre__explicacion p {
+    font-size: 2rem;
+    padding: 20px;
+}
+
+
+/*TECNOLOGIA*/
+
+#section-tecnologia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-tecnologia__skills {
+    display: block;
+    margin: 30px;
+    margin: auto;
+}
+
+.section-tecnologia__skills h3 {
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 0px 5px 5px black;
+}
+
+.section-tecnologia__img {
+    display: block;
+    margin: auto;
+    transform: rotate(1deg);
+}
+
+.section-tecnologia__img img {
+    height: 600px;
+}
+
+.section-tecnologia__grid-container {
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr 50px;
+}
+
+.section-tecnologia_grid-container__element {
+    display: flex;
+}
+
+.section-tecnologia_grid-container__element p {
+    font-size: 2.8rem;
+    padding: 0 40px;
+    text-shadow: 0px 5px 5px black;
+}
+
+
+/*TRABAJO*/
+
+#section-trabajo {
+    display: block;
+    position: relative;
+    z-index: -100;
+}
+
+#section-trabajo h3 {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 100px;
+    text-shadow: 0px 5px 5px black;
+}
+
+.section-trabajo__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    margin: auto;
+}
+
+.section-trabajo__grid-text {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0px 5px 5px black;
+    margin: auto;
+}
+
+.anio {
+    text-align: center;
+    font-size: 4rem;
+    display: inline-block;
+    margin: auto;
+    padding-left: 100px;
+    text-shadow: 0px 5px 5px black;
+}
+
+.anio p {
+    font-size: 4rem;
+}
+
+.circulo {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #f8f4e1;
+    margin: auto;
+    box-shadow: 0px 10px 10px black;
+}
+
+.circulo-pequeño {
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #f8f4e1;
+    margin: auto;
+    box-shadow: 0px 10px 10px black;
+}
+
+.contenedor__posit {
+    display: none;
+    background: #ffffa5;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 5px 5px black;
+    transform: rotate(-3deg);
+    position: absolute;
+    left: 80%;
+    bottom: 20px;
+    padding: 20px;
+}
+
+.contenedor__posit p {
+    font-size: 20px;
+    color: #000;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contenedor__posit b {
+    margin-top: 20px;
+}
+
+.contenedor__posit a {
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.contenedor__posit a:hover {
+    text-decoration: underline;
+}
+
+
+/*CONTACTO*/
+
+#section-contacto {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    z-index: 10000;
+    box-shadow: 3px 5px 5px black;
+    padding-bottom: 30px;
+}
+
+.section-contacto__CURRICULUM {
+    display: inline-block;
+    margin: auto;
+    background: #025955;
+    border-radius: 6px;
+    color: #f8f4e1;
+    border-color: #00af91;
+    text-align: center;
+    font-family: "New Tegomin", serif;
+    font-size: 2rem;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.45s;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 3px 5px 5px black;
+}
+
+.section-contacto__CURRICULUM:hover {
+    background-color: #00917c;
+    color: #f8f4e1;
+}
+
+#section-contacto p {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 40px;
+    font-size: 2rem;
+}
+
+.section-contacto__redes a {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0px 1px 1px black;
+    color: #4e3620;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#section-contacto h3 {
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 0px 1px 1px black;
+    color: #4e3620;
+    text-decoration: none;
+}
+
+.section-contacto__redes {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 80px;
+    margin: auto;
+}
+
+.section-contacto__redes-div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-contacto__redes-div i {
+    margin: auto;
+}
+
+.section-contacto__redes a {
+    font-size: 3rem;
+}
+
+.section-contacto__redes-div p {
+    font-size: 1.5rem !important;
+}
 
 .bg-light {
-  background: #f8f4e1;
-  color: #4e3620;
+    background: #f8f4e1;
+    color: #4e3620;
 }
 
 .bg-dark {
-  background: #4e3620;
-  color: #f8f4e1;
+    background: #4e3620;
+    color: #f8f4e1;
 }
 
 footer {
-  padding: 2.2rem;
+    padding: 2.2rem;
 }
 
 footer div {
-  background: #f8f4e1;
-  height: 0.5px;
+    background: #f8f4e1;
+    height: 0.5px;
 }
 
 footer p {
-  text-align: center;
+    text-align: center;
 }
 
-
-
 span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
 }
 
 @keyframes caret {
-  50% {
-    border-color: transparent;
-  }
+    50% {
+        border-color: transparent;
+    }
 }
 
 h1 {
-  font-size: 5em;
-  color: #f8f4e1;
-  text-transform: uppercase;
+    font-size: 5em;
+    color: #f8f4e1;
+    text-transform: uppercase;
 }
-
-
-
 
 
 /*TICK*/
-.check {
- 
-  border: solid 8px #025955;
-  width: 40px;
-  height: 15px;
-  border-top: none;
-  border-right: none;
-  transform: rotate(-45deg);
-  transform-origin: top left;
-  box-shadow: -5px 5px 0 0 black;
-  position: relative;
-  margin: auto;
 
-  animation: start 2s ease infinite both;
-  animation-play-state: running!important;
-  animation-delay: 1s;
+.check {
+    border: solid 8px #025955;
+    width: 40px;
+    height: 15px;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    box-shadow: -5px 5px 0 0 black;
+    position: relative;
+    margin: auto;
+    animation: start 2s ease infinite both;
+    animation-play-state: running!important;
+    animation-delay: 1s;
 }
 
 @keyframes start {
-  0% {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  50% {
-    opacity: 1;
-    width: 0;
-    height: 15px;
-  }
-  100% {
-    width: 50px;
-  }
+    0% {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    50% {
+        opacity: 1;
+        width: 0;
+        height: 15px;
+    }
+    100% {
+        width: 50px;
+    }
 }
 
 
 /*COMECOCOS*/
-.pacman-holder{
-  position:relative;
-  margin: auto ;
+
+.pacman-holder {
+    position: relative;
+    margin: auto;
 }
 
-.pacman-container { /*BOCA*/
-  display:block;
-  width: 100px;
-  height: 100px;
-
-  transform:rotate(135deg);
-
-  animation: bite 0.5s linear infinite;
- 
+.pacman-container {
+    /*BOCA*/
+    display: block;
+    width: 100px;
+    height: 100px;
+    transform: rotate(135deg);
+    animation: bite 0.5s linear infinite;
 }
 
 .pacman-body {
-  background-color: #ffffa5;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  
-  z-index: 100;
+    background-color: #f8f4e1;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    z-index: 100;
 }
 
 .pacman {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-
-  border-radius: 50px;
-  clip: rect(0px, 50px, 100px, 0px);
-  z-index: 102;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    clip: rect(0px, 50px, 100px, 0px);
+    z-index: 102;
 }
-
 
 .pacman-mouth {
-  position: absolute;
-  left:2px;
-  width: 102px;
-  height: 102px;
-  border-radius: 50px;
-  clip: rect(0px, 100px, 100px, 52px);
+    position: absolute;
+    left: 2px;
+    width: 102px;
+    height: 102px;
+    border-radius: 50px;
+    clip: rect(0px, 100px, 100px, 52px);
 }
-
 
 .pacman-mouth .pacman {
-  background-color: #4e3620;
-  transform:rotate(90deg);
-  animation: munch 0.5s linear infinite;
-
-  /* To fix a yellow border on pacman's mouth */
-  border: 3px solid #4e3620;
+    background-color: #4e3620;
+    transform: rotate(90deg);
+    animation: munch 0.5s linear infinite;
+    /* To fix a yellow border on pacman's mouth */
+    border: 3px solid #4e3620;
 }
 
-.pacman-holder.moving{
-  animation: move 7s linear infinite;
+.pacman-holder.moving {
+    animation: move 7s linear infinite;
 }
 
-
-@keyframes munch
-{
-  0% {
-       transform:rotate(90deg);
-  }
-  50% {
-       transform:rotate(0deg);
-  }
-  100% {
-       transform:rotate(90deg);
-  }
+@keyframes munch {
+    0% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
 }
 
-
-@keyframes bite
-{
-  0% {
-       transform:rotate(135deg);
-  }
-  50% {
-       transform:rotate(180deg);
-  }
-  100% {
-       transform:rotate(135deg);
-  }
+@keyframes bite {
+    0% {
+        transform: rotate(135deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(135deg);
+    }
 }
 
-@keyframes move
-{
-0% {
-   transform: scaleX(1);           
-   top:0px;
+@keyframes move {
+    0% {
+        transform: scaleX(1);
+        top: 0px;
+    }
+    49.999% {
+        top: 600px;
+        transform: scaleX(1);
+    }
+    100% {
+        top: 1200px;
+    }
 }
-
-49.999% {
-   top:600px;
-   transform: scaleX(1);
-}
-
-100% {
-    top:1200px;
-  }          
-}
-
 
 
 /*RESPONSIBE*/
+
+
 /*----------------------------------------------------------*/
+
+
 /*------------------- 1440 ---------------------------------*/
+
+
 /*----------------------------------------------------------*/
-@media(max-width:1440px){
 
-  .header-content{
-    top: 300px;
-  }
-  
- .header-content__title{
-    font-size: 5rem;
-  }
-
-  .header-content__text{
-    font-size: 3rem;
-  }
-
-
-  /*SECTION SOBRE*/
-  .section-sobre__img{
-    padding: 25px;
-  }
-  
-  .section-sobre__img img{
-    height: 700px;
-  }
-
-  .section-sobre__explicacion p{
-    font-size: 1.5rem;
-  }
-
-  .section-sobre__explicacion h3{
-     font-size:4rem;
-     padding: 0;
-  }
-
-
-  /*TECNOLOGÍA*/
-  .section-tecnologia__skills{
-    display: block;
-    margin-top: 30px;
-    margin: auto;
-  }
-
-  .section-tecnologia__skills h3{
-     font-size: 4rem;
-   }
-  
-  .section-tecnologia__img img{
-    width: 600px;
-    height: auto;
-  }
-  
-  .section-tecnologia__grid-container {
-    grid-template-columns: 1fr 50px 1fr 50px;
-    padding: 0;
-  }
-  
-
-  .section-tecnologia_grid-container__element p{
-    font-size: 2rem;
-    padding: 0 40px;
-  }
-  
-
-
-  /* TRABAJO*/
-  #section-trabajo h3{
-     font-size: 4rem;
-     padding-top: 50px;
-     
-  }
-  
-  .section-trabajo__grid{
-    width: 60%;
-  }
-  
-  .section-trabajo__grid-text{
-    font-size: 2.5rem;
-  }
-  
-  .anio{
-    padding-left: 100px;
-  }
-  
-  .anio p{
-    font-size: 3.5rem;
-  }
-
-
-
-  @keyframes move
-  {
-  0% {
-    transform: scaleX(1);           
-    top:0px;
-  }
-
-  49.999% {
-    top:500px;
-    transform: scaleX(1);
-  }
-
-  100% {
-      top:1000px;
-    }          
-  }
-
-
-
-
-
-/*CONTACTO*/
-
-#section-contacto{
-  padding-bottom: 30px;
-  
-}
-
-.section-contacto__CURRICULUM{
-  border-radius: 6px;
-font-size: 2rem;    
-  padding: 10px;  
-      margin-top: 50px;
-      margin-bottom: 50px;
-}
-
-
-#section-contacto p{
-  font-size: 1.5rem;
-}
-
-#section-contacto h3{
-  font-size: 4rem;
-}
-
-.section-contacto__redes{
-  padding: 50px 20px;
-}
-
-.section-contacto__redes-div{
-  margin: auto;
-  padding: 10px;
-
-  height: 200px;
-}
-
-.section-contacto__redes a{
-  font-size: 2rem;
-}
-
-.section-contacto__redes p{
-  font-size: 1rem !important;
-}
-
+@media(max-width:1440px) {
+    .header-content {
+        top: 300px;
+    }
+    .header-content__title {
+        font-size: 5rem;
+    }
+    .header-content__text {
+        font-size: 3rem;
+    }
+    /*SECTION SOBRE*/
+    .section-sobre__img {
+        padding: 25px;
+    }
+    .section-sobre__img img {
+        height: 700px;
+    }
+    .section-sobre__explicacion p {
+        font-size: 1.5rem;
+    }
+    .section-sobre__explicacion h3 {
+        font-size: 4rem;
+        padding: 0;
+    }
+    /*TECNOLOGÍA*/
+    .section-tecnologia__skills {
+        display: block;
+        margin-top: 30px;
+        margin: auto;
+    }
+    .section-tecnologia__skills h3 {
+        font-size: 4rem;
+    }
+    .section-tecnologia__img img {
+        width: 600px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 50px 1fr 50px;
+        padding: 0;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 2rem;
+        padding: 0 40px;
+    }
+    /* TRABAJO*/
+    #section-trabajo h3 {
+        font-size: 4rem;
+        padding-top: 50px;
+    }
+    .section-trabajo__grid {
+        width: 60%;
+    }
+    .section-trabajo__grid-text {
+        font-size: 2.5rem;
+    }
+    .anio {
+        padding-left: 100px;
+    }
+    .anio p {
+        font-size: 3.5rem;
+    }
+    @keyframes move {
+        0% {
+            transform: scaleX(1);
+            top: 0px;
+        }
+        49.999% {
+            top: 500px;
+            transform: scaleX(1);
+        }
+        100% {
+            top: 1000px;
+        }
+    }
+    /*CONTACTO*/
+    #section-contacto {
+        padding-bottom: 30px;
+    }
+    .section-contacto__CURRICULUM {
+        border-radius: 6px;
+        font-size: 2rem;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #section-contacto p {
+        font-size: 1.5rem;
+    }
+    #section-contacto h3 {
+        font-size: 4rem;
+    }
+    .section-contacto__redes {
+        padding: 50px 20px;
+    }
+    .section-contacto__redes-div {
+        margin: auto;
+        padding: 10px;
+        height: 200px;
+    }
+    .section-contacto__redes a {
+        font-size: 2rem;
+    }
+    .section-contacto__redes p {
+        font-size: 1rem !important;
+    }
 }
 
 
 /*----------------------------------------------------------*/
+
+
 /*------------------ 1366 ----------------------------------*/
+
+
 /*----------------------------------------------------------*/
-@media(max-width:1366px){
 
-/*NAVBAR*/
-.navbar-menu-cafe{
-  margin: auto;
-  padding: 10px;
-  padding-bottom:15%;  
-}
-
-.navbar-menu-cafe p{
-  font-size: 1.5rem;
-}
-
-.navbar-menu-cafe__parte-cafe p{
-  height: 50px;
-  width: 180px;
-}
-
-
-.navbar-menu-cafe__parte-dinero{
-  height: 120px;
-  width: 250px;
-  position: absolute;
-  top: 75px;
-}
-
-.navbar-menu-cafe__parte-dinero__pantalla h1{
-    font-size: 1rem;
-}
-
-
-.navbar-menu-cafe__parte-dinero__pantalla-cafe{
-  width: 50px;
-  height: 50px;
-  background-size: 60px;
-}
-
+@media(max-width:1366px) {
+    /*NAVBAR*/
+    .navbar-menu-cafe {
+        margin: auto;
+        padding: 10px;
+        padding-bottom: 15%;
+    }
+    .navbar-menu-cafe p {
+        font-size: 1.5rem;
+    }
+    .navbar-menu-cafe__parte-cafe p {
+        height: 50px;
+        width: 180px;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 120px;
+        width: 250px;
+        position: absolute;
+        top: 75px;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla h1 {
+        font-size: 1rem;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
+        width: 50px;
+        height: 50px;
+        background-size: 60px;
+    }
 }
 
 
 /*----------------------------------------------------------*/
+
+
 /*------------------ 1366 ----------------------------------*/
+
+
 /*----------------------------------------------------------*/
-@media(max-width:1199px){
 
-  /*TECNOLOGIA*/
-  
- 
- .section-tecnologia__img img{
-   width: 550px;
-   height: auto;
- }
- 
- .section-tecnologia__grid-container {
-   grid-template-columns: 1fr 50px 1fr 50px;
-   padding: 0;
- }
- 
-
- .section-tecnologia_grid-container__element p{
-   font-size: 1.5rem;
- }
-
+@media(max-width:1199px) {
+    /*TECNOLOGIA*/
+    .section-tecnologia__img img {
+        width: 550px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 50px 1fr 50px;
+        padding: 0;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.5rem;
+    }
 }
 
 
-
 /*----------------------------------------------------------*/
+
+
 /*------------------ 1024 ----------------------------------*/
-/*----------------------------------------------------------*/
-@media(max-width:1024px){
-
-  /*NAVBAR*/
-  .navbar-menu-cafe p{
-    font-size: 1.5rem;
-  }
-
-  .navbar-menu-cafe__parte-cafe p{
-    height: 40px;
-    width: 150px;
-  }
-
-  .navbar-menu-cafe__cafe-boton{
-    height: 45px;
-    width: 45px;
-  }
-  
-
-  .navbar-menu-cafe__parte-dinero{
-    height: 100px;
-    width: 200px;
-    position: absolute;
-    top: 65px;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla h1{
-    font-size: 0.9rem;
-  }
-  
-
-
-  .header-content{
-    top: 250px;
-  }
-
- .header-content__title{
-    font-size: 4rem;
-  }
-
-  .header-content__text{
-    font-size: 2.5rem;
-  }
-
-
-  
-  /*SOBRE*/
-  .section-sobre__img {
-    padding: 30px;
-  }
-  .section-sobre__img img{
-    height: 500px;
-  }
-
-  .section-sobre__explicacion{
-    margin: 15px;
-  }
-
-  .section-sobre__explicacion p{
-    font-size: 1.2rem;
-    padding: 15px;
-  }
-
-  .section-sobre__explicacion h3{
-     font-size:3.5rem;
-  }
-
-
-  
-
-
-  /*TECNOLOGÍA*/
-  .section-tecnologia__skills{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
- 
-  }
-
-  .section-tecnologia__skills h3{
-     font-size: 3.5rem;
-    
-   }
-  
-  .section-tecnologia__img img{
-    width: 450px;
-    height: auto;
-  }
-  
-  .section-tecnologia__grid-container {
-    grid-template-columns: 1fr 40px 1fr 40px;
-    padding: 0;
-  }
-  
-
-  .section-tecnologia_grid-container__element p{
-    font-size: 1.5rem;
-  }
-
-  .check {
-    border: solid 6px #025955;
-    width: 30px;
-    height: 12px;
-    border-top: none;
-    border-right: none;
-    animation: start 2s ease infinite both;
-  }
-
-  @keyframes start {
-    0% {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    } 
-    50% {
-      opacity: 1;
-      width: 0;
-      height: 12px;
-    }
-    100% {
-      width: 30px;
-    }
-  }
-
-
-
-/*TRABAJO*/
-
-  #section-trabajo h3{
-    font-size: 3.5rem;
-    padding-top: 40px;
- }
- 
- .section-trabajo__grid{
-   width: 70%;
- }
- 
- .section-trabajo__grid-text{
-   font-size: 2rem;
- }
- 
- .anio{
-   padding-left: 50px;
- }
- 
- .anio p{
-   font-size: 3rem;
- }
-
-
-
- /*PACMAN*/
-
- .pacman-container { /*BOCA*/
-  width: 90px;
-  height: 90px;
-}
-
-.pacman-body {
-  width: 90px;
-  height: 90px;
-  border-radius: 45px;
-}
-
-.pacman {
-  width: 90px;
-  height: 90px;
-  border-radius: 45px;
-  clip: rect(0px, 45px, 90px, 0px);
-}
-
-.pacman-mouth {
-  width: 92px;
-  height: 92px;
-  border-radius: 47px;
-  clip: rect(0px, 90px, 90px, 47px);
-}
- .pacman-holder.moving{
-  animation: move 6s linear infinite;
-}
-
-
-@keyframes move
-{
-0% {
-  transform: scaleX(1);           
-  top:0px;
-}
-
-49.999% {
-  top:425px;
-  transform: scaleX(1);
-}
-
-100% {
-    top:850px;
-  }          
-}
-
-
-
-}
-
 
 
 /*----------------------------------------------------------*/
+
+@media(max-width:1024px) {
+    /*NAVBAR*/
+    .navbar-menu-cafe p {
+        font-size: 1.5rem;
+    }
+    .navbar-menu-cafe__parte-cafe p {
+        height: 40px;
+        width: 150px;
+    }
+    .navbar-menu-cafe__cafe-boton {
+        height: 45px;
+        width: 45px;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 100px;
+        width: 200px;
+        position: absolute;
+        top: 65px;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla h1 {
+        font-size: 0.9rem;
+    }
+    .header-content {
+        top: 250px;
+    }
+    .header-content__title {
+        font-size: 4rem;
+    }
+    .header-content__text {
+        font-size: 2.5rem;
+    }
+    /*SOBRE*/
+    .section-sobre__img {
+        padding: 30px;
+    }
+    .section-sobre__img img {
+        height: 500px;
+    }
+    .section-sobre__explicacion {
+        margin: 15px;
+    }
+    .section-sobre__explicacion p {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+    .section-sobre__explicacion h3 {
+        font-size: 3.5rem;
+    }
+    /*TECNOLOGÍA*/
+    .section-tecnologia__skills {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .section-tecnologia__skills h3 {
+        font-size: 3.5rem;
+    }
+    .section-tecnologia__img img {
+        width: 450px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 40px 1fr 40px;
+        padding: 0;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.5rem;
+    }
+    .check {
+        border: solid 6px #025955;
+        width: 30px;
+        height: 12px;
+        border-top: none;
+        border-right: none;
+        animation: start 2s ease infinite both;
+    }
+    @keyframes start {
+        0% {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        50% {
+            opacity: 1;
+            width: 0;
+            height: 12px;
+        }
+        100% {
+            width: 30px;
+        }
+    }
+    /*TRABAJO*/
+    #section-trabajo h3 {
+        font-size: 3.5rem;
+        padding-top: 40px;
+    }
+    .section-trabajo__grid {
+        width: 70%;
+    }
+    .section-trabajo__grid-text {
+        font-size: 2rem;
+    }
+    .anio {
+        padding-left: 50px;
+    }
+    .anio p {
+        font-size: 3rem;
+    }
+    /*PACMAN*/
+    .pacman-container {
+        /*BOCA*/
+        width: 90px;
+        height: 90px;
+    }
+    .pacman-body {
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+    }
+    .pacman {
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+        clip: rect(0px, 45px, 90px, 0px);
+    }
+    .pacman-mouth {
+        width: 92px;
+        height: 92px;
+        border-radius: 47px;
+        clip: rect(0px, 90px, 90px, 47px);
+    }
+    .pacman-holder.moving {
+        animation: move 6s linear infinite;
+    }
+    @keyframes move {
+        0% {
+            transform: scaleX(1);
+            top: 0px;
+        }
+        49.999% {
+            top: 425px;
+            transform: scaleX(1);
+        }
+        100% {
+            top: 850px;
+        }
+    }
+}
+
+
+/*----------------------------------------------------------*/
+
+
 /*------------------ 900 -----------------------------------*/
-/*----------------------------------------------------------*/
-@media(max-width:900px){
 
-  #section-tecnologia{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  .section-tecnologia__skills{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  .section-tecnologia__skills h3{
-     font-size: 3rem;
-     padding: 0;
-   }
-  
-  .section-tecnologia__img img{
-    width: 600px;
-    height: auto;
-  }
-  
-  .section-tecnologia__grid-container {
-    grid-template-columns: 1fr 50px 1fr 50px;
-    
-  }
-  
-  .section-tecnologia_grid-container__element p{
-    font-size: 1.8rem;
-  }
-
-  
-.check {
-  border: solid 7px #025955;
-  width: 30px;
-  height: 12px;
-  border-top: none;
-  border-right: none;
-  animation: start 2s ease infinite both;
-}
-
-}
 
 /*----------------------------------------------------------*/
+
+@media(max-width:900px) {
+    #section-tecnologia {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-tecnologia__skills {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 20px;
+    }
+    .section-tecnologia__skills h3 {
+        font-size: 3rem;
+        padding: 0;
+    }
+    .section-tecnologia__img img {
+        width: 600px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 50px 1fr 50px;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.8rem;
+    }
+    .check {
+        border: solid 7px #025955;
+        width: 30px;
+        height: 12px;
+        border-top: none;
+        border-right: none;
+        animation: start 2s ease infinite both;
+    }
+}
+
+
+/*----------------------------------------------------------*/
+
+
 /*------------------ 768 -----------------------------------*/
-/*----------------------------------------------------------*/
-@media(max-width:768px){
-
-  .gota-agua{
-    height: 60px;
-    width: 60px;
-    background-size: 40px;
-    margin: auto;
-  }
-
-  #header-video__video{
-    display: none;
-  }
-  #header-video__video-2{
-    display: block;
-  }
- 
-
-
-  /*NAVBAR*/
-  .navbar-menu-cafe{
-    flex-direction: column;
-    margin: auto;
-    padding-bottom:16%;
-  }
-
-  .navbar-menu-cafe__parte-cafe p{
-      height: 40px;
-      width: 180px;
-  } 
-
-  .navbar-menu-cafe__parte-dinero{
-    height: 90px;
-    width: 180px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 120px;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla h1{
-      font-size: 0.8rem;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-    border-left: 20px solid #00917c;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-  }
-  .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
-    border-left: 20px solid #00917c;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
-    width: 50px;
-    height: 50px;
-    background-size: 40px;
-    margin: auto;
-  }
-
-
-/*HEADER*/
-  .header-content{
-    top: 170px;
-  }
-
-  .header-content__title{
-    font-size: 3rem;
-  }
-
-  .header-content__text{
-    font-size: 2rem;
-  }  
-
-
-/*SOBRE*/
-  .section-sobre__img {
-    padding: 20px;
-  }
-  .section-sobre__img img{
-    height: 450px;
-  }
-
-  .section-sobre__explicacion{
-    margin: 10px;
-  }
-
-  .section-sobre__explicacion p{
-    font-size: 1rem;
-    padding: 10px;
-  }
-
-  .section-sobre__explicacion h3{
-     font-size:3rem;
-  }
-
-
-
-
-/*TECNOLOGÍA*/
-.section-tecnologia__skills{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding: 20px;
-}
-
-
-.section-tecnologia__img img{
-  width: 500px;
-  height: auto;
-}
-
-.section-tecnologia__grid-container {
-  grid-template-columns: 1fr 50px 1fr 50px;
-  
-}
-
-.section-tecnologia_grid-container__element p{
-  font-size: 1.8rem;
-}
-
-
-
-/*TRABAJO*/
-
-#section-trabajo h3{
-  font-size: 3rem;
-  padding-top: 40px;
-}
-
-.section-trabajo__grid{
- width: 90%;
-}
-
-.section-trabajo__grid-text{
- font-size: 1.5rem;
-}
-
-.anio{
- padding-left: 30px;
-}
-
-.anio p{
- font-size: 2.5rem;
-}
-
-.circulo{
-  width: 25px;
-  height: 25px;
- }
- 
- .circulo-pequeño{
-  width: 13px;
-  height: 13px;
- }
- 
-
-
-  /*COMECOCOS*/
-
-  .pacman-container { /*BOCA*/
-    width: 80px;
-    height: 80px;
-  }
-
-  .pacman-body {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-  }
-
-  .pacman {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    clip: rect(0px, 40px, 80px, 0px);
-  }
-
-  .pacman-mouth {
-    width: 82px;
-    height: 82px;
-    border-radius: 40px;
-    clip: rect(0px, 80px, 80px, 42px);
-  }
-
-  .pacman-holder.moving{
-    animation: move 7s linear infinite;
-  }
-
-  @keyframes move
-  {
-  0% {
-    transform: scaleX(1);           
-    top:0px;
-  }
-
-  49.999% {
-    top:350px;
-    transform: scaleX(1);
-  }
-
-  100% {
-      top:700px;
-    }          
-  }
-
-
-
-
-
-
-
-
-
-
-
-  /*CONTACTO*/
-  #section-contacto p{
-    font-size: 1rem;
-  }
-
-  .section-contacto__CURRICULUM{
-    border-radius: 5px;
-    font-size: 1.5rem;    
-    padding: 8px;  
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  
-  #section-contacto h3{
-    font-size: 3rem;
-  }
-  
-  .section-contacto__redes{
-    padding: 30px 5px;
-  }
-  
-  .section-contacto__redes-div{
-    margin: auto;
-    padding: 0px;
-    height: 150px;
-  }
-  
-  .section-contacto__redes a{
-    font-size: 1.5rem;
-  }
-  
-  .section-contacto__redes p{
-    font-size: 0.7rem !important;
-  }
-
-
-}
-
-
-
-
 
 
 /*----------------------------------------------------------*/
+
+@media(max-width:768px) {
+    .gota-agua {
+        height: 60px;
+        width: 60px;
+        background-size: 40px;
+        margin: auto;
+    }
+    #header-video__video {
+        display: none;
+    }
+    #header-video__video-2 {
+        display: block;
+    }
+    /*NAVBAR*/
+    .navbar-menu-cafe {
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 16%;
+    }
+    .navbar-menu-cafe__parte-cafe p {
+        height: 40px;
+        width: 180px;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 90px;
+        width: 180px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 120px;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla h1 {
+        font-size: 0.8rem;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
+        border-left: 20px solid #00917c;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
+        border-left: 20px solid #00917c;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
+        width: 50px;
+        height: 50px;
+        background-size: 40px;
+        margin: auto;
+    }
+    /*HEADER*/
+    .header-content {
+        top: 170px;
+    }
+    .header-content__title {
+        font-size: 3rem;
+    }
+    .header-content__text {
+        font-size: 2rem;
+    }
+    /*SOBRE*/
+    .section-sobre__img {
+        padding: 20px;
+    }
+    .section-sobre__img img {
+        height: 450px;
+    }
+    .section-sobre__explicacion {
+        margin: 10px;
+    }
+    .section-sobre__explicacion p {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .section-sobre__explicacion h3 {
+        font-size: 3rem;
+    }
+    /*TECNOLOGÍA*/
+    .section-tecnologia__skills {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 20px;
+    }
+    .section-tecnologia__img img {
+        width: 500px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 50px 1fr 50px;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.8rem;
+    }
+    /*TRABAJO*/
+    #section-trabajo h3 {
+        font-size: 3rem;
+        padding-top: 40px;
+    }
+    .section-trabajo__grid {
+        width: 90%;
+    }
+    .section-trabajo__grid-text {
+        font-size: 1.5rem;
+    }
+    .anio {
+        padding-left: 30px;
+    }
+    .anio p {
+        font-size: 2.5rem;
+    }
+    .circulo {
+        width: 25px;
+        height: 25px;
+    }
+    .circulo-pequeño {
+        width: 13px;
+        height: 13px;
+    }
+    /*COMECOCOS*/
+    .pacman-container {
+        /*BOCA*/
+        width: 80px;
+        height: 80px;
+    }
+    .pacman-body {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+    .pacman {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        clip: rect(0px, 40px, 80px, 0px);
+    }
+    .pacman-mouth {
+        width: 82px;
+        height: 82px;
+        border-radius: 40px;
+        clip: rect(0px, 80px, 80px, 42px);
+    }
+    .pacman-holder.moving {
+        animation: move 7s linear infinite;
+    }
+    @keyframes move {
+        0% {
+            transform: scaleX(1);
+            top: 0px;
+        }
+        49.999% {
+            top: 350px;
+            transform: scaleX(1);
+        }
+        100% {
+            top: 700px;
+        }
+    }
+    /*CONTACTO*/
+    #section-contacto p {
+        font-size: 1rem;
+    }
+    .section-contacto__CURRICULUM {
+        border-radius: 5px;
+        font-size: 1.5rem;
+        padding: 8px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #section-contacto h3 {
+        font-size: 3rem;
+    }
+    .section-contacto__redes {
+        padding: 30px 5px;
+    }
+    .section-contacto__redes-div {
+        margin: auto;
+        padding: 0px;
+        height: 150px;
+    }
+    .section-contacto__redes a {
+        font-size: 1.5rem;
+    }
+    .section-contacto__redes p {
+        font-size: 0.7rem !important;
+    }
+}
+
+
+/*----------------------------------------------------------*/
+
+
 /*------------------ 561 -----------------------------------*/
-/*----------------------------------------------------------*/
-@media(max-width:561px){
-  .gota-agua{
-    height: 60px;
-    width: 60px;
-    background-size: 40px;
-    margin: auto;
-  }
-
- 
-  .navbar-menu-cafe{
-    padding: 2px;
-    padding-bottom:21%;
-  }
-
-
-  .navbar-menu-cafe__parte-cafe p{
-      height: 40px;
-      width: 150px;
-  }
-
-  .navbar-menu-cafe p{
-    font-size: 1.1rem;
-  }
-
-  .navbar-menu-cafe__cafe{
-    padding: 10px 5px; 
-  }
-
-  .navbar-menu-cafe__cafe-boton{
-    padding: 10px;
-    width: 20px;
-    height: 20px;
-  }
-
-  .navbar-menu-cafe__parte-dinero{
-    height: 90px;
-    width: 140px;
-    bottom: 0;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla h1{
-      font-size: 0.8rem;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-    border-left: 20px solid #00917c;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-  }
-  .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
-    border-left: 20px solid #00917c;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
-    width: 50px;
-    height: 50px;
-    background-size: 40px;
-    margin: auto;
-  }
-
-
-
-  /*HEADER*/
-  
-  .header-content{
-    top: 140px;
-  }
-
-  .header-content__title{
-    font-size: 2rem;
-  }
-
-  .header-content__text{
-    font-size: 1.2rem;
-  } 
-
-
-
-  
-  #section-sobre{
-    flex-direction: column-reverse;
-    margin: auto;
-  }
-
-  .section-sobre__img {
-    display: block;
-    margin: auto;
-  }
-
-  .section-sobre__img img{
-    height: auto;
-    width: 350px;
-    padding: 0;
-  }
-
-  .section-sobre__explicacion p{
-    font-size: 1rem;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .section-sobre__explicacion h3{
-     font-size:3rem;
-     padding: 0;
-  }
-
-
-  
-
-  
-/*TECNOLOGÍA*/
-.section-tecnologia__skills{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding: 0px;
-}
-
-.section-tecnologia__skills h3{
-   font-size: 3rem;
- }
-
-.section-tecnologia__img img{
-  width: 400px;
-  height: auto;
-}
-
-.section-tecnologia__grid-container {
- 
-  grid-template-columns: 1fr 35px 1fr 35px;
-}
-
-.section-tecnologia_grid-container__element p{
-  font-size: 1.5rem;
-}
-
- 
-
-/*TRABAJO*/
-#section-trabajo h3{
-  font-size: 3rem;
-  padding-top: 40px;
-}
-
-.section-trabajo__grid{
- grid-template-columns:  1fr 1fr 1fr;
- width: 95%;
-}
-
-.section-trabajo__grid-text{
- text-align: center;
- font-size: 1rem;
- margin: auto;
-}
-
-.anio{
- padding-left: 30px;
- padding: 0;
-}
-
-.anio p{
- font-size: 2rem;
-
-}
-
-.circulo{
- width: 20px;
- height: 20px;
-}
-
-.circulo-pequeño{
- width: 10px;
- height: 10px;
-}
-
-
-
-
-
-/*CONTACTO*/
-  #section-contacto p{
-    font-size: 1rem;
-  }
-
-  .section-contacto__CURRICULUM{
-    border-radius: 5px;
-    font-size: 1.5rem;    
-    padding: 8px;  
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  
-  #section-contacto h3{
-    font-size: 3rem;
-  }
-  
-  .section-contacto__redes{
-    padding: 20px 0px;
-    flex-direction: column;
-  }
-  
-  .section-contacto__redes-div{ 
-    height: 200px;
-    margin: 10px;
-    padding: 0px;
-  }
-  
-  .section-contacto__redes a{
-    font-size: 2rem;
-   
-  }
-  
-  .section-contacto__redes p{
-    font-size: 1rem !important;
-    padding: 0;
-  }
-
-
-}
-
-
-
 
 
 /*----------------------------------------------------------*/
+
+@media(max-width:561px) {
+    .gota-agua {
+        height: 60px;
+        width: 60px;
+        background-size: 40px;
+        margin: auto;
+    }
+    .navbar-menu-cafe {
+        padding: 2px;
+        padding-bottom: 21%;
+    }
+    .navbar-menu-cafe__parte-cafe p {
+        height: 40px;
+        width: 150px;
+    }
+    .navbar-menu-cafe p {
+        font-size: 1.1rem;
+    }
+    .navbar-menu-cafe__cafe {
+        padding: 10px 5px;
+    }
+    .navbar-menu-cafe__cafe-boton {
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 90px;
+        width: 140px;
+        bottom: 0;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla h1 {
+        font-size: 0.8rem;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
+        border-left: 20px solid #00917c;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
+        border-left: 20px solid #00917c;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
+        width: 50px;
+        height: 50px;
+        background-size: 40px;
+        margin: auto;
+    }
+    /*HEADER*/
+    .header-content {
+        top: 140px;
+    }
+    .header-content__title {
+        font-size: 2rem;
+    }
+    .header-content__text {
+        font-size: 1.2rem;
+    }
+    #section-sobre {
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .section-sobre__img {
+        display: block;
+        margin: auto;
+    }
+    .section-sobre__img img {
+        height: auto;
+        width: 350px;
+        padding: 0;
+    }
+    .section-sobre__explicacion p {
+        font-size: 1rem;
+        padding: 20px;
+        text-align: center;
+    }
+    .section-sobre__explicacion h3 {
+        font-size: 3rem;
+        padding: 0;
+    }
+    /*TECNOLOGÍA*/
+    .section-tecnologia__skills {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0px;
+    }
+    .section-tecnologia__skills h3 {
+        font-size: 3rem;
+    }
+    .section-tecnologia__img img {
+        width: 400px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 35px 1fr 35px;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.5rem;
+    }
+    /*TRABAJO*/
+    #section-trabajo h3 {
+        font-size: 3rem;
+        padding-top: 40px;
+    }
+    .section-trabajo__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 95%;
+    }
+    .section-trabajo__grid-text {
+        text-align: center;
+        font-size: 1rem;
+        margin: auto;
+    }
+    .anio {
+        padding-left: 30px;
+        padding: 0;
+    }
+    .anio p {
+        font-size: 2rem;
+    }
+    .circulo {
+        width: 20px;
+        height: 20px;
+    }
+    .circulo-pequeño {
+        width: 10px;
+        height: 10px;
+    }
+    /*CONTACTO*/
+    #section-contacto p {
+        font-size: 1rem;
+    }
+    .section-contacto__CURRICULUM {
+        border-radius: 5px;
+        font-size: 1.5rem;
+        padding: 8px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #section-contacto h3 {
+        font-size: 3rem;
+    }
+    .section-contacto__redes {
+        padding: 20px 0px;
+        flex-direction: column;
+    }
+    .section-contacto__redes-div {
+        height: 200px;
+        margin: 10px;
+        padding: 0px;
+    }
+    .section-contacto__redes a {
+        font-size: 2rem;
+    }
+    .section-contacto__redes p {
+        font-size: 1rem !important;
+        padding: 0;
+    }
+}
+
+
+/*----------------------------------------------------------*/
+
+
 /*------------------ 426 -----------------------------------*/
+
+
 /*----------------------------------------------------------*/
-@media(max-width:426px){
 
-  .gota-agua{
-    height: 50px;
-    width: 50px;
-    background-size: 30px;
-    margin: auto;
-  }
-
- 
-
-  .navbar-menu-cafe{
-    padding: 2px;
-    padding-bottom:23%;
-  }
-
-  .navbar-menu-cafe__parte-cafe p{
-    height: 30px;
-    width: 140px;
-  }
-
-  .navbar-menu-cafe__cafe-boton{
-    width: 10px;
-    height: 10px;
-  }
-
-  .navbar-menu-cafe__parte-dinero{
-    height: 75px;
-    width: 120px;
-    top: 100px;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla h1{
-    font-size: 0.6rem;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
-    width: 45px;
-    height: 45px;
-    background-size: 25px;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-    border-left: 13px solid #00917c;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent; 
-  }
-  .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
-    border-left: 13px solid #00917c;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent; 
-  }
-
-  
-  /*HEADER*/
-  
-
-  #header-video__video-2{
-    display: none;
-  }
-  #header-video__video-3{
-    display: block;
-  }
-
-  .header-content{
-    top: 200px;
-  }
-
-  .header-content__title{
-    font-size: 2.5rem;
-    padding: 0px 30px;
-  }
-
-  .header-content__text{
-    font-size: 1.5rem;
-    padding: 10px;
-  } 
-
-
-  /*SOBRE*/
-  .section-sobre__img img{
-    width: 300px;
-    height: auto;
-    padding: 0;
-
-  }
-
-
-  /*TECNOLOGÍA*/
-  .section-tecnologia__img img{
-    width: 330px;
-    height: auto;
-  }
-
-  .section-tecnologia__grid-container {
-    grid-template-columns: 1fr 30px 1fr 30px;
-    
-  }
-
-  .section-tecnologia_grid-container__element p{
-    font-size: 1.6rem;
-    padding: 18px;
-    text-align: center;
-  }
-
-  .check {
-    border: solid 6px #025955;
-    width: 25px;
-    height: 10px;
-    border-top: none;
-    border-right: none;
-    animation: start 2s ease infinite both;
-    top: 5px;
-  }
-  
-  @keyframes start {
-    0% {
-      opacity: 0;
-      width: 0;
-      height: 0;
+@media(max-width:426px) {
+    .gota-agua {
+        height: 50px;
+        width: 50px;
+        background-size: 30px;
+        margin: auto;
     }
-    
-    50% {
-      opacity: 1;
-      width: 0;
-      height: 10px;
+    .navbar-menu-cafe {
+        padding: 2px;
+        padding-bottom: 23%;
     }
-    100% {
-      width: 25px;
+    .navbar-menu-cafe__parte-cafe p {
+        height: 30px;
+        width: 140px;
     }
-  }
-
-
-  #section-trabajo h3{
-    padding: 0px 10px;
-  }
-
-  /*COMECOCOS*/
-  .pacman-container { 
-    width: 60px;
-    height: 60px;
-    animation: bite 0.5s linear infinite;
-  }
-
-  .pacman-body {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-  }
-
-  .pacman {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    clip: rect(0px, 30px, 60px, 0px);
-  }
-
-  .pacman-mouth {
-    left:0px;
-    width: 62px;
-    height: 62px;
-    border-radius: 30px;
-    clip: rect(0px, 60px, 60px, 32px);
-  }
-
-  .pacman-mouth .pacman {
-    animation: munch 0.5s linear infinite;
-  }
-
-  .pacman-holder.moving{
-    animation: move 6s linear infinite;
-  }
-
-  @keyframes move
-  {
-  0% {
-    transform: scaleX(1);           
-    top:0px;
-  }
-
-  49.999% {
-    top:280px;
-    transform: scaleX(1);
-  }
-
-  100% {
-      top:560px;
-    }          
-  }
+    .navbar-menu-cafe__cafe-boton {
+        width: 10px;
+        height: 10px;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 75px;
+        width: 120px;
+        top: 100px;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla h1 {
+        font-size: 0.6rem;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
+        width: 45px;
+        height: 45px;
+        background-size: 25px;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
+        border-left: 13px solid #00917c;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
+        border-left: 13px solid #00917c;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+    }
+    /*HEADER*/
+    #header-video__video-2 {
+        display: none;
+    }
+    #header-video__video-3 {
+        display: block;
+    }
+    .header-content {
+        top: 200px;
+    }
+    .header-content__title {
+        font-size: 2.5rem;
+        padding: 0px 30px;
+    }
+    .header-content__text {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    /*SOBRE*/
+    .section-sobre__img img {
+        width: 300px;
+        height: auto;
+        padding: 0;
+    }
+    /*TECNOLOGÍA*/
+    .section-tecnologia__img img {
+        width: 330px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 30px 1fr 30px;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.6rem;
+        padding: 18px;
+        text-align: center;
+    }
+    .check {
+        border: solid 6px #025955;
+        width: 25px;
+        height: 10px;
+        border-top: none;
+        border-right: none;
+        animation: start 2s ease infinite both;
+        top: 5px;
+    }
+    @keyframes start {
+        0% {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        50% {
+            opacity: 1;
+            width: 0;
+            height: 10px;
+        }
+        100% {
+            width: 25px;
+        }
+    }
+    #section-trabajo h3 {
+        padding: 0px 10px;
+    }
+    /*COMECOCOS*/
+    .pacman-container {
+        width: 60px;
+        height: 60px;
+        animation: bite 0.5s linear infinite;
+    }
+    .pacman-body {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    .pacman {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        clip: rect(0px, 30px, 60px, 0px);
+    }
+    .pacman-mouth {
+        left: 0px;
+        width: 62px;
+        height: 62px;
+        border-radius: 30px;
+        clip: rect(0px, 60px, 60px, 32px);
+    }
+    .pacman-mouth .pacman {
+        animation: munch 0.5s linear infinite;
+    }
+    .pacman-holder.moving {
+        animation: move 6s linear infinite;
+    }
+    @keyframes move {
+        0% {
+            transform: scaleX(1);
+            top: 0px;
+        }
+        49.999% {
+            top: 280px;
+            transform: scaleX(1);
+        }
+        100% {
+            top: 560px;
+        }
+    }
 }
 
 
-
-
 /*----------------------------------------------------------*/
+
+
 /*------------------ 376 -----------------------------------*/
+
+
 /*----------------------------------------------------------*/
 
-@media(max-width:376px){
- 
-  .gota-agua{
-    height: 45px;
-    width: 45px;
-    background-size: 25px;
-  }
-
-
- 
-
-
-  .navbar-menu-cafe{
-    padding: 2px;
-    padding-bottom:25%;
-  }
-
-  .navbar-menu-cafe__parte-dinero{
-    height: 70px;
-    width: 120px;
-  }
-
-
-  /*SOBRE*/
- 
-  .section-sobre__img img{
-    width: 200px;
-    height: auto;
-    padding: 0;
-
-  }
-
-   /*TECNOLOGÍA*/
-
-   .section-tecnologia__img img{
-    width: 250px;
-    height: auto;
-  }
-
-  .section-tecnologia__grid-container {
-    grid-template-columns: 1fr 40px 1fr 40px;
-  }
-
-  .section-tecnologia_grid-container__element p{
-    font-size: 1.4rem;
-    padding: 18px;
-    text-align: center;
-  }
- 
-  .section-contacto__redes-div{
-    margin: 20px 0;
-  }
+@media(max-width:376px) {
+    .gota-agua {
+        height: 45px;
+        width: 45px;
+        background-size: 25px;
+    }
+    .navbar-menu-cafe {
+        padding: 2px;
+        padding-bottom: 25%;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 70px;
+        width: 120px;
+    }
+    /*SOBRE*/
+    .section-sobre__img img {
+        width: 200px;
+        height: auto;
+        padding: 0;
+    }
+    /*TECNOLOGÍA*/
+    .section-tecnologia__img img {
+        width: 250px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 40px 1fr 40px;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.4rem;
+        padding: 18px;
+        text-align: center;
+    }
+    .section-contacto__redes-div {
+        margin: 20px 0;
+    }
 }
 
 
 /*----------------------------------------------------------*/
+
+
 /*------------------ 321 -----------------------------------*/
+
+
 /*----------------------------------------------------------*/
-@media(max-width:321px){
 
-  .navbar-menu-cafe__parte-cafe p{
-    height: 25px;
-    width: 130px;
-    font-size: 0.9rem;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla h1{
-    font-size: 0.6rem;
-  }
-
-  .navbar-menu-cafe__parte-dinero{
-    height: 65px;
-    width: 120px;
-    top: 90px;
-  }
-
-  .navbar-menu-cafe__parte-dinero__pantalla-cafe{
-    width: 40px;
-    height: 40px;
-    background-size: 20px;
-  }
-
-
-  /*SOBRE*/
-  #section-sobre h3{
-    font-size: 2.5rem;
-  }
-
-  .section-sobre__img img{
-    width: 250px;
-  }
-
-  /*TECNOLOGÍA*/
-
-  #section-tecnologia h3{
-    font-size: 2.5rem;
-  }
-  .section-tecnologia__img img{
-    width: 270px;
-    height: auto;
-  }
-
-  .section-tecnologia__grid-container {
-    grid-template-columns: 1fr 40px 1fr 40px;
-  }
-
-  .section-tecnologia_grid-container__element p{
-    font-size: 1.2rem;
-    padding: 15px;
-  }
-
-  /*TRABAJO*/
-  #section-trabajo h3{
-    font-size: 2.5rem;
-  }
-
-
-  /*CONTACTO*/
-  #section-contacto h3{
-    font-size: 2.5rem;
-  }
-  .section-contacto__redes-div{
-    height: 130px;
-    margin: 20px 0;
-    padding: 0px;
-  }
-  
-  .section-contacto__redes a{
-    font-size: 1.3rem;
-  }
-  
-  .section-contacto__redes p{
-    font-size: 0.6rem !important;
-  }
+@media(max-width:321px) {
+    .navbar-menu-cafe__parte-cafe p {
+        height: 25px;
+        width: 130px;
+        font-size: 0.9rem;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla h1 {
+        font-size: 0.6rem;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 65px;
+        width: 120px;
+        top: 90px;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
+        width: 40px;
+        height: 40px;
+        background-size: 20px;
+    }
+    /*SOBRE*/
+    #section-sobre h3 {
+        font-size: 2.5rem;
+    }
+    .section-sobre__img img {
+        width: 250px;
+    }
+    /*TECNOLOGÍA*/
+    #section-tecnologia h3 {
+        font-size: 2.5rem;
+    }
+    .section-tecnologia__img img {
+        width: 270px;
+        height: auto;
+    }
+    .section-tecnologia__grid-container {
+        grid-template-columns: 1fr 40px 1fr 40px;
+    }
+    .section-tecnologia_grid-container__element p {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+    /*TRABAJO*/
+    #section-trabajo h3 {
+        font-size: 2.5rem;
+    }
+    /*CONTACTO*/
+    #section-contacto h3 {
+        font-size: 2.5rem;
+    }
+    .section-contacto__redes-div {
+        height: 130px;
+        margin: 20px 0;
+        padding: 0px;
+    }
+    .section-contacto__redes a {
+        font-size: 1.3rem;
+    }
+    .section-contacto__redes p {
+        font-size: 0.6rem !important;
+    }
 }
