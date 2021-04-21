@@ -21,11 +21,18 @@ const section_trabajo = document.querySelector("#section-trabajo");
 const section_trabajo_h3 = document.querySelector("#section-trabajo h3");
 const section_trabajo_p_anio = document.querySelectorAll(".anio p");
 const section_trabajo_p_texto = document.querySelectorAll(".section-trabajo__grid-text");
+const section_trabajo_pacman_body = document.querySelector(".pacman-body");
+const section_trabajo_pacman_mouth = document.querySelector(".pacman-mouth .pacman");
+const section_trabajo_circuloG = document.querySelectorAll(".circulo");
+const section_trabajo_circuloP = document.querySelectorAll(".circulo-pequeño");
+
 
 const section_contacto = document.querySelector("#section-contacto");
 const section_contacto_h3 = document.querySelector("#section-contacto h3");
 const section_contacto_a = document.querySelectorAll("#section-contacto a");
 const section_contacto_p = document.querySelectorAll("#section-contacto p");
+const section_contacto_i = document.querySelectorAll("#section-contacto i");
+const section_contacto_boton = document.querySelector(".section-contacto__CURRICULUM");
 
 
 
@@ -70,7 +77,9 @@ const colores = [{
                 "colB": colorMarron,
                 "colH3": colorBlanco,
                 "colP_A": colorBlanco,
-                "colP_T": colorBlanco
+                "colP_T": colorBlanco,
+                "colPac": colorBlanco,
+                "colPacM": colorMarron
             },
             {
                 "colB": colorMarron,
@@ -95,7 +104,9 @@ const colores = [{
                 "colB": colorMarron,
                 "colH3": colorBlanco,
                 "colP_A": colorBlanco,
-                "colP_T": colorBlanco
+                "colP_T": colorBlanco,
+                "colPac": colorBlanco,
+                "colPacM": colorMarron
             },
             {
                 "colB": colorMarron,
@@ -120,7 +131,9 @@ const colores = [{
                 "colB": colorMarron,
                 "colH3": colorBlanco,
                 "colP_A": colorBlanco,
-                "colP_T": colorBlanco
+                "colP_T": colorBlanco,
+                "colPac": colorBlanco,
+                "colPacM": colorMarron
             },
             {
                 "colB": colorMarron,
@@ -145,7 +158,9 @@ const colores = [{
                 "colB": colorBlanco,
                 "colH3": colorMarron,
                 "colP_A": colorMarron,
-                "colP_T": colorMarron
+                "colP_T": colorMarron,
+                "colPac": colorMarron,
+                "colPacM": colorBlanco
             },
             {
                 "colB": colorBlanco,
@@ -183,12 +198,14 @@ cafeHecho.addEventListener("click", () => {
     cafe_boton.style.display = "flex";
 
     section_sobre.style.background = colores[cont].colores_sections[0].colB;
+    section_sobre.style.border = "thick solid " + colores[cont].colores_sections[0].colB;
     section_sobre_h3.style.color = colores[cont].colores_sections[0].colH3;
     for (var x = 0; x < section_sobre_p.length; x++) {
         section_sobre_p[x].style.color = colores[cont].colores_sections[0].colP;
     }
 
     section_tecnologia.style.background = colores[cont].colores_sections[1].colB;
+    section_tecnologia.style.border = "thick solid " + colores[cont].colores_sections[1].colB;
     section_tecnologia_h3.style.color = colores[cont].colores_sections[1].colH3;
 
     for (var x = 0; x < section_tecnologia_p.length; x++) {
@@ -196,6 +213,7 @@ cafeHecho.addEventListener("click", () => {
     }
 
     section_trabajo.style.background = colores[cont].colores_sections[2].colB;
+    section_trabajo.style.border = "thick solid " + colores[cont].colores_sections[2].colB;
     section_trabajo_h3.style.color = colores[cont].colores_sections[2].colH3;
 
     for (var x = 0; x < section_trabajo_p_anio.length; x++) {
@@ -205,15 +223,32 @@ cafeHecho.addEventListener("click", () => {
     for (var x = 0; x < section_trabajo_p_texto.length; x++) {
         section_trabajo_p_texto[x].style.color = colores[cont].colores_sections[2].colP_T;
     }
+    section_trabajo_pacman_body.style.background = colores[cont].colores_sections[2].colPac;
+    section_trabajo_pacman_mouth.style.background = colores[cont].colores_sections[2].colPacM;
+    section_trabajo_pacman_mouth.style.border = "thick solid " + colores[cont].colores_sections[2].colPacM;
+
+    for (var x = 0; x < section_trabajo_circuloG.length; x++) {
+        section_trabajo_circuloG[x].style.background = colores[cont].colores_sections[2].colPac;
+    }
+
+    for (var x = 0; x < section_trabajo_circuloP.length; x++) {
+        section_trabajo_circuloP[x].style.background = colores[cont].colores_sections[2].colPac;
+    }
 
     section_contacto.style.background = colores[cont].colores_sections[3].colB;
+    section_contacto.style.border = "thick solid " + colores[cont].colores_sections[3].colB;
     section_contacto_h3.style.color = colores[cont].colores_sections[3].colH3;
+    section_contacto_boton.style.color = colores[cont].colores_sections[3].colB + " !important";
 
     for (var x = 0; x < section_contacto_a.length; x++) {
         section_contacto_a[x].style.color = colores[cont].colores_sections[3].colA;
     }
     for (var x = 0; x < section_contacto_p.length; x++) {
         section_contacto_p[x].style.color = colores[cont].colores_sections[3].colP;
+    }
+
+    for (var x = 0; x < section_contacto_i.length; x++) {
+        section_contacto_i[x].style.color = colores[cont].colores_sections[3].colA;
     }
 
     //Reproduce el sonido de la máquina
