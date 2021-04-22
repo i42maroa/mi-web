@@ -6,36 +6,6 @@ body {
 }
 
 
-/* GOTA DE AGUA*/
-
-.navbar-cafe {
-    display: flex;
-    padding-top: 10px;
-}
-
-.gota-agua {
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    background-image: url("../img/cafes/cafe-solo.png");
-    background-color: #00917c;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50px;
-    display: flex;
-    margin: auto;
-    box-shadow: 0px 10px 10px black;
-    cursor: pointer;
-}
-
-.gota-agua:hover {
-    background-image: url("../img/cafes/cafe-solo2.png");
-    background-color: #025955;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
 /*NAVBAR*/
 
 
@@ -168,7 +138,40 @@ body {
 }
 
 
+/* GOTA DE AGUA*/
+
+.navbar-cafe {
+    display: flex;
+    padding-top: 10px;
+}
+
+.gota-agua {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-image: url("../img/cafes/cafe-solo.png");
+    background-color: #00917c;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 10px 10px black;
+    cursor: pointer;
+}
+
+.gota-agua:hover {
+    background-image: url("../img/cafes/cafe-solo2.png");
+    background-color: #025955;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 /*HEADER*/
+
+
+/*-----------------------------------*/
 
 header {
     display: flex;
@@ -231,6 +234,7 @@ header {
 #section-sobre {
     display: flex;
     justify-content: space-around;
+    background: #f8f4e1;
     z-index: 100;
 }
 
@@ -251,6 +255,7 @@ header {
     text-align: center;
     font-size: 5rem;
     padding: 0;
+    color: #4e3620;
     text-shadow: 1px 2px 2px black;
 }
 
@@ -260,11 +265,15 @@ header {
 
 .section-sobre__explicacion p {
     font-size: 2rem;
+    color: #4e3620;
     padding: 20px;
 }
 
 
 /*TECNOLOGIA*/
+
+
+/*------------------------------------------*/
 
 #section-tecnologia {
     display: flex;
@@ -310,6 +319,9 @@ header {
 
 
 /*TRABAJO*/
+
+
+/*------------------------------------------*/
 
 #section-trabajo {
     display: block;
@@ -414,12 +426,16 @@ header {
 
 /*CONTACTO*/
 
+
+/*------------------------------------------*/
+
 #section-contacto {
     display: flex;
     margin: auto;
     flex-direction: column;
     z-index: 10000;
     box-shadow: 3px 5px 5px black;
+    background: #f8f4e1;
     padding-bottom: 30px;
 }
 
@@ -454,6 +470,7 @@ header {
     font-size: 3rem;
     padding: 0 40px;
     font-size: 2rem;
+    color: #4e3620;
     text-shadow: 0px 1px 1px black;
 }
 
@@ -490,6 +507,7 @@ header {
 
 .section-contacto__redes-div i {
     margin: auto;
+    color: #4e3620;
 }
 
 .section-contacto__redes a {
@@ -500,15 +518,11 @@ header {
     font-size: 1.5rem !important;
 }
 
-.bg-light {
-    background: #f8f4e1;
-    color: #4e3620;
-}
 
-.bg-dark {
-    background: #4e3620;
-    color: #f8f4e1;
-}
+/* FOOTER */
+
+
+/*------------------------------------------*/
 
 footer {
     padding: 2.2rem;
@@ -534,14 +548,11 @@ span {
     }
 }
 
-h1 {
-    font-size: 5em;
-    color: #f8f4e1;
-    text-transform: uppercase;
-}
+
+/*CHECK*/
 
 
-/*TICK*/
+/*------------------------------------------*/
 
 .check {
     border: solid 8px #025955;
@@ -577,6 +588,9 @@ h1 {
 
 
 /*COMECOCOS*/
+
+
+/*------------------------------------------*/
 
 .pacman-holder {
     position: relative;
@@ -824,7 +838,7 @@ h1 {
     .navbar-menu-cafe__parte-dinero__pantalla-cafe {
         width: 50px;
         height: 50px;
-        background-size: 60px;
+        background-size: 40px;
     }
 }
 

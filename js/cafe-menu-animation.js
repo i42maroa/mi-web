@@ -15,7 +15,9 @@ const section_sobre_p = document.querySelectorAll(".section-sobre__explicacion p
 
 const section_tecnologia = document.querySelector("#section-tecnologia");
 const section_tecnologia_h3 = document.querySelector(".section-tecnologia__skills h3");
-const section_tecnologia_p = document.querySelectorAll(".section-tecnologia_grid-container__element p");
+const section_tecnologia_p = document.querySelectorAll(".section-tecnologia_grid-container__element p ");
+
+
 
 const section_trabajo = document.querySelector("#section-trabajo");
 const section_trabajo_h3 = document.querySelector("#section-trabajo h3");
@@ -33,6 +35,10 @@ const section_contacto_a = document.querySelectorAll("#section-contacto a");
 const section_contacto_p = document.querySelectorAll("#section-contacto p");
 const section_contacto_i = document.querySelectorAll("#section-contacto i");
 const section_contacto_boton = document.querySelector(".section-contacto__CURRICULUM");
+
+const footer = document.querySelector(".footer");
+const footer_p = document.querySelector(".footer p");
+const footer_solid = document.querySelector(".solid");
 
 
 
@@ -62,120 +68,134 @@ const cafes = [{
 }]
 
 const colores = [{
-        "nombre": "EXPRESSO",
-        "colores_sections": [{
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colP": colorBlanco
-            },
-            {
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colP": colorBlanco
-            },
-            {
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colP_A": colorBlanco,
-                "colP_T": colorBlanco,
-                "colPac": colorBlanco,
-                "colPacM": colorMarron
-            },
-            {
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colA": colorBlanco,
-                "colP": colorBlanco
-            }
-        ]
-    }, {
-        "nombre": "LATTE",
-        "colores_sections": [{
-                "colB": colorBlanco,
-                "colH3": colorMarron,
-                "colP": colorMarron
-            },
-            {
-                "colB": colorBlanco,
-                "colH3": colorMarron,
-                "colP": colorMarron
-            },
-            {
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colP_A": colorBlanco,
-                "colP_T": colorBlanco,
-                "colPac": colorBlanco,
-                "colPacM": colorMarron
-            },
-            {
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colA": colorBlanco,
-                "colP": colorBlanco
-            }
-        ]
-    }, {
-        "nombre": "IRLANDÉS",
-        "colores_sections": [{
-                "colB": colorMarroncete,
-                "colH3": colorBlanco,
-                "colP": colorBlanco
-            },
-            {
-                "colB": colorMarroncete,
-                "colH3": colorBlanco,
-                "colP": colorBlanco
-            },
-            {
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colP_A": colorBlanco,
-                "colP_T": colorBlanco,
-                "colPac": colorBlanco,
-                "colPacM": colorMarron
-            },
-            {
-                "colB": colorMarron,
-                "colH3": colorBlanco,
-                "colA": colorBlanco,
-                "colP": colorBlanco
-            }
-        ]
-    }, {
-        "nombre": "LECHE",
-        "colores_sections": [{
-                "colB": colorBlanco,
-                "colH3": colorMarron,
-                "colP": colorMarron
-            },
-            {
-                "colB": colorBlanco,
-                "colH3": colorMarron,
-                "colP": colorMarron
-            },
-            {
-                "colB": colorBlanco,
-                "colH3": colorMarron,
-                "colP_A": colorMarron,
-                "colP_T": colorMarron,
-                "colPac": colorMarron,
-                "colPacM": colorBlanco
-            },
-            {
-                "colB": colorBlanco,
-                "colH3": colorMarron,
-                "colA": colorMarron,
-                "colP": colorMarron
-            }
-        ]
-    }
-
-
-]
-
-
-
+    "nombre": "EXPRESSO",
+    "colores_sections": [{
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colP": colorBlanco
+        },
+        {
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colP": colorBlanco
+        },
+        {
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colP_A": colorBlanco,
+            "colP_T": colorBlanco,
+            "colPac": colorBlanco,
+            "colPacM": colorMarron
+        },
+        {
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colA": colorBlanco,
+            "colP": colorBlanco
+        },
+        {
+            "colB": colorBlanco,
+            "colP": colorMarron,
+            "colS": colorMarron,
+        }
+    ]
+}, {
+    "nombre": "LATTE",
+    "colores_sections": [{
+            "colB": colorBlanco,
+            "colH3": colorMarron,
+            "colP": colorMarron
+        },
+        {
+            "colB": colorBlanco,
+            "colH3": colorMarron,
+            "colP": colorMarron
+        },
+        {
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colP_A": colorBlanco,
+            "colP_T": colorBlanco,
+            "colPac": colorBlanco,
+            "colPacM": colorMarron
+        },
+        {
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colA": colorBlanco,
+            "colP": colorBlanco
+        },
+        {
+            "colB": colorBlanco,
+            "colP": colorMarron,
+            "colS": colorMarron,
+        }
+    ]
+}, {
+    "nombre": "IRLANDÉS",
+    "colores_sections": [{
+            "colB": colorMarroncete,
+            "colH3": colorBlanco,
+            "colP": colorBlanco
+        },
+        {
+            "colB": colorMarroncete,
+            "colH3": colorBlanco,
+            "colP": colorBlanco
+        },
+        {
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colP_A": colorBlanco,
+            "colP_T": colorBlanco,
+            "colPac": colorBlanco,
+            "colPacM": colorMarron
+        },
+        {
+            "colB": colorMarron,
+            "colH3": colorBlanco,
+            "colA": colorBlanco,
+            "colP": colorBlanco
+        },
+        {
+            "colB": colorBlanco,
+            "colP": colorMarron,
+            "colS": colorMarron,
+        }
+    ]
+}, {
+    "nombre": "LECHE",
+    "colores_sections": [{
+            "colB": colorBlanco,
+            "colH3": colorMarron,
+            "colP": colorMarron
+        },
+        {
+            "colB": colorBlanco,
+            "colH3": colorMarron,
+            "colP": colorMarron
+        },
+        {
+            "colB": colorBlanco,
+            "colH3": colorMarron,
+            "colP_A": colorMarron,
+            "colP_T": colorMarron,
+            "colPac": colorMarron,
+            "colPacM": colorBlanco
+        },
+        {
+            "colB": colorBlanco,
+            "colH3": colorMarron,
+            "colA": colorMarron,
+            "colP": colorMarron
+        },
+        {
+            "colB": colorMarron,
+            "colP": colorBlanco,
+            "colS": colorBlanco,
+        }
+    ]
+}]
 
 
 var cont = 0
@@ -211,6 +231,7 @@ cafeHecho.addEventListener("click", () => {
     for (var x = 0; x < section_tecnologia_p.length; x++) {
         section_tecnologia_p[x].style.color = colores[cont].colores_sections[1].colP;
     }
+
 
     section_trabajo.style.background = colores[cont].colores_sections[2].colB;
     section_trabajo.style.border = "thick solid " + colores[cont].colores_sections[2].colB;
@@ -250,6 +271,11 @@ cafeHecho.addEventListener("click", () => {
     for (var x = 0; x < section_contacto_i.length; x++) {
         section_contacto_i[x].style.color = colores[cont].colores_sections[3].colA;
     }
+
+
+    footer.style.background = colores[cont].colores_sections[4].colB;
+    footer_p.style.color = colores[cont].colores_sections[4].colP;
+    footer_solid.style.background = colores[cont].colores_sections[4].colS;
 
     //Reproduce el sonido de la máquina
     reproducir.volume = 0.5;
