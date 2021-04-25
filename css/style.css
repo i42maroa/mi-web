@@ -31,7 +31,7 @@ body {
 .navbar-menu-cafe__cafe {
     display: flex;
     margin: auto;
-    padding: 5px 10px;
+    padding: 1vh 1vh;
 }
 
 .navbar-menu-cafe__parte-cafe {
@@ -40,22 +40,22 @@ body {
 }
 
 .navbar-menu-cafe__parte-cafe p {
-    font-size: 2rem;
-    width: 220px;
+    font-size: 1.8rem;
+    width: 25vh;
     text-align: center;
-    padding: 2%;
+    padding: 1vh;
     color: #4e3620;
     background: #f8f4e1;
     border-radius: 5px;
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
-    margin: auto 5%;
+    margin: auto 1vh;
     box-shadow: 0px 10px 10px black;
 }
 
 .navbar-menu-cafe__cafe-boton {
-    width: 60px;
-    height: 60px;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
     background: #00917c;
     margin: auto;
@@ -67,10 +67,10 @@ body {
 }
 
 .navbar-menu-cafe__parte-dinero {
-    height: 30%;
-    width: 15%;
+    height: 15vh;
+    width: 25vh;
     background: #000;
-    margin: 20px 0px;
+    margin: 2vh;
     border-radius: 10px;
     box-shadow: 0px 10px 10px black;
     display: flex;
@@ -82,11 +82,11 @@ body {
     height: 20%;
     background: #897853;
     border-radius: 20px;
-    margin: 10px auto;
+    margin: 5% auto;
 }
 
 .navbar-menu-cafe__parte-dinero h1 {
-    font-size: 20px;
+    font-size: 90%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     margin: auto;
@@ -101,9 +101,9 @@ body {
 }
 
 .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-    border-left: 30px solid #00917c;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-left: 3vh solid #00917c;
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;
     margin: auto;
     cursor: pointer;
     transform: rotate(180deg);
@@ -115,21 +115,21 @@ body {
 
 .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
     height: 0;
-    border-left: 30px solid #00917c;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-left: 3vh solid #00917c;
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;
     margin: auto;
     cursor: pointer;
 }
 
 .navbar-menu-cafe__parte-dinero__pantalla-cafe {
-    width: 85px;
-    height: 85px;
+    width: 60%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("../img/cafes/cafe-solo.png");
-    background-size: 70px;
-    margin: 10px auto;
+    background-size: 50%;
+    margin: auto;
     cursor: pointer;
 }
 
@@ -182,7 +182,7 @@ header {
 
 .header-content__title {
     text-align: center;
-    font-size: 8rem;
+    font-size: 6rem;
     display: inline-block;
     margin: auto;
     text-shadow: 0px 5px 5px black;
@@ -192,7 +192,7 @@ header {
     display: inline-block;
     margin: auto;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     text-shadow: 0px 5px 5px black;
 }
 
@@ -264,9 +264,10 @@ header {
 }
 
 .section-sobre__explicacion p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #4e3620;
     padding: 20px;
+    text-shadow: 0px 0.5px 0.5px black;
 }
 
 
@@ -312,9 +313,9 @@ header {
 }
 
 .section-tecnologia_grid-container__element p {
-    font-size: 2.8rem;
+    font-size: 2rem;
     padding: 0 40px;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 0px 1px 1px black;
 }
 
 
@@ -346,8 +347,8 @@ header {
 
 .section-trabajo__grid-text {
     text-align: center;
-    font-size: 3rem;
-    text-shadow: 1px 2px 2px black;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
     margin: auto;
 }
 
@@ -467,11 +468,10 @@ header {
 
 #section-contacto p {
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding: 0 40px;
-    font-size: 2rem;
     color: #4e3620;
-    text-shadow: 0px 1px 1px black;
+    text-shadow: 0px 0.5px 0.5px black;
 }
 
 .section-contacto__redes a {
@@ -512,10 +512,6 @@ header {
 
 .section-contacto__redes a {
     font-size: 3rem;
-}
-
-.section-contacto__redes-div p {
-    font-size: 1.5rem !important;
 }
 
 
@@ -565,9 +561,9 @@ span {
     box-shadow: -5px 5px 0 0 black;
     position: relative;
     margin: auto;
-    animation: start 2s ease infinite both;
+    animation: start 3s ease infinite both;
     animation-play-state: running!important;
-    animation-delay: 1s;
+    animation-delay: 3s;
 }
 
 @keyframes start {
@@ -642,7 +638,7 @@ span {
 }
 
 .pacman-holder.moving {
-    animation: move 7s linear infinite;
+    animation: move 10s linear infinite;
 }
 
 @keyframes munch {
@@ -713,7 +709,7 @@ span {
         height: 700px;
     }
     .section-sobre__explicacion p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .section-sobre__explicacion h3 {
         font-size: 4rem;
@@ -749,7 +745,7 @@ span {
         width: 60%;
     }
     .section-trabajo__grid-text {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
     .anio {
         padding-left: 100px;
@@ -782,7 +778,7 @@ span {
         margin-bottom: 50px;
     }
     #section-contacto p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     #section-contacto h3 {
         font-size: 4rem;
@@ -816,29 +812,11 @@ span {
     /*NAVBAR*/
     .navbar-menu-cafe {
         margin: auto;
-        padding: 10px;
-        padding-bottom: 15%;
+        padding: 5px;
     }
     .navbar-menu-cafe p {
+        width: 20vh;
         font-size: 1.5rem;
-    }
-    .navbar-menu-cafe__parte-cafe p {
-        height: 50px;
-        width: 180px;
-    }
-    .navbar-menu-cafe__parte-dinero {
-        height: 120px;
-        width: 250px;
-        position: absolute;
-        top: 75px;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla h1 {
-        font-size: 1rem;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
-        width: 50px;
-        height: 50px;
-        background-size: 40px;
     }
 }
 
@@ -846,12 +824,31 @@ span {
 /*----------------------------------------------------------*/
 
 
-/*------------------ 1366 ----------------------------------*/
+/*------------------ 1199 ----------------------------------*/
 
 
 /*----------------------------------------------------------*/
 
 @media(max-width:1199px) {
+    /*NAVBAR*/
+    .navbar-menu-cafe {
+        margin: auto;
+        padding: 5px;
+    }
+    .navbar-menu-cafe p {
+        width: 16vh;
+        font-size: 1.3rem;
+    }
+    /*HEADER*/
+    .header-content {
+        top: 300px;
+    }
+    .header-content__title {
+        font-size: 4.5rem;
+    }
+    .header-content__text {
+        font-size: 2.5rem;
+    }
     /*TECNOLOGIA*/
     .section-tecnologia__img img {
         width: 550px;
@@ -878,24 +875,32 @@ span {
 @media(max-width:1024px) {
     /*NAVBAR*/
     .navbar-menu-cafe p {
-        font-size: 1.5rem;
-    }
-    .navbar-menu-cafe__parte-cafe p {
-        height: 40px;
-        width: 150px;
+        width: 17vh;
+        font-size: 1.2rem;
+        padding: 1vh;
     }
     .navbar-menu-cafe__cafe-boton {
-        height: 45px;
-        width: 45px;
+        width: 6vh;
+        height: 6vh;
+    }
+    .navbar-menu-cafe__parte-dinero h1 {
+        font-size: 80%;
     }
     .navbar-menu-cafe__parte-dinero {
-        height: 100px;
-        width: 200px;
-        position: absolute;
-        top: 65px;
+        margin: 1vh;
     }
-    .navbar-menu-cafe__parte-dinero__pantalla h1 {
-        font-size: 0.9rem;
+    .gota-agua {
+        height: 60px;
+        width: 60px;
+        background-size: 40px;
+        margin: auto;
+    }
+    /*HEADER*/
+    #header-video__video {
+        display: none;
+    }
+    #header-video__video-2 {
+        display: block;
     }
     .header-content {
         top: 250px;
@@ -917,7 +922,7 @@ span {
         margin: 15px;
     }
     .section-sobre__explicacion p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 15px;
     }
     .section-sobre__explicacion h3 {
@@ -944,9 +949,9 @@ span {
         font-size: 1.5rem;
     }
     .check {
-        border: solid 6px #025955;
-        width: 30px;
-        height: 12px;
+        border: solid 5px #025955;
+        width: 25px;
+        height: 10px;
         border-top: none;
         border-right: none;
         animation: start 2s ease infinite both;
@@ -975,7 +980,7 @@ span {
         width: 70%;
     }
     .section-trabajo__grid-text {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .anio {
         padding-left: 50px;
@@ -986,28 +991,28 @@ span {
     /*PACMAN*/
     .pacman-container {
         /*BOCA*/
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
     }
     .pacman-body {
-        width: 90px;
-        height: 90px;
-        border-radius: 45px;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
     }
     .pacman {
-        width: 90px;
-        height: 90px;
-        border-radius: 45px;
-        clip: rect(0px, 45px, 90px, 0px);
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        clip: rect(0px, 40px, 80px, 0px);
     }
     .pacman-mouth {
-        width: 92px;
-        height: 92px;
-        border-radius: 47px;
-        clip: rect(0px, 90px, 90px, 47px);
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        clip: rect(0px, 80px, 80px, 40px);
     }
     .pacman-holder.moving {
-        animation: move 6s linear infinite;
+        animation: move 10s linear infinite;
     }
     @keyframes move {
         0% {
@@ -1022,6 +1027,9 @@ span {
             top: 850px;
         }
     }
+    #section-contacto p {
+        font-size: 1rem;
+    }
 }
 
 
@@ -1034,6 +1042,38 @@ span {
 /*----------------------------------------------------------*/
 
 @media(max-width:900px) {
+    .gota-agua {
+        height: 50px;
+        width: 50px;
+        background-size: 30px;
+        margin: auto;
+    }
+    .navbar-menu-cafe p {
+        width: 15vh;
+        font-size: 1rem;
+        padding: 1vh;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
+        border-left: 2.5vh solid #00917c;
+        border-top: 1.5vh solid transparent;
+        border-bottom: 1.5vh solid transparent;
+    }
+    .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
+        border-left: 2.5vh solid #00917c;
+        border-top: 1.5vh solid transparent;
+        border-bottom: 1.5vh solid transparent;
+    }
+    /*HEADER*/
+    .header-content {
+        top: 250px;
+    }
+    .header-content__title {
+        font-size: 3.5rem;
+    }
+    .header-content__text {
+        font-size: 2rem;
+    }
+    /*TECNOLOGIA*/
     #section-tecnologia {
         display: flex;
         flex-direction: column;
@@ -1059,9 +1099,9 @@ span {
         font-size: 1.8rem;
     }
     .check {
-        border: solid 7px #025955;
-        width: 30px;
-        height: 12px;
+        border: solid 5px #025955;
+        width: 25px;
+        height: 10px;
         border-top: none;
         border-right: none;
         animation: start 2s ease infinite both;
@@ -1078,60 +1118,39 @@ span {
 /*----------------------------------------------------------*/
 
 @media(max-width:768px) {
-    .gota-agua {
-        height: 60px;
-        width: 60px;
-        background-size: 40px;
-        margin: auto;
-    }
-    #header-video__video {
-        display: none;
-    }
-    #header-video__video-2 {
-        display: block;
-    }
     /*NAVBAR*/
-    .navbar-menu-cafe {
-        flex-direction: column;
-        margin: auto;
-        padding-bottom: 16%;
-    }
-    .navbar-menu-cafe__parte-cafe p {
-        height: 40px;
-        width: 180px;
+    .navbar-menu-cafe p {
+        width: 12vh;
+        font-size: 0.8rem;
+        padding: 1vh;
     }
     .navbar-menu-cafe__parte-dinero {
-        height: 90px;
-        width: 180px;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        top: 120px;
+        margin: 0.5vh;
     }
-    .navbar-menu-cafe__parte-dinero__pantalla h1 {
-        font-size: 0.8rem;
+    .navbar-menu-cafe__cafe-boton {
+        height: 5vh;
+        width: 5vh;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        height: 12vh;
+        width: 20vh;
+    }
+    .navbar-menu-cafe__parte-dinero h1 {
+        font-size: 60%;
     }
     .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-        border-left: 20px solid #00917c;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
+        border-left: 2vh solid #00917c;
+        border-top: 1vh solid transparent;
+        border-bottom: 1vh solid transparent;
     }
     .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
-        border-left: 20px solid #00917c;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
-        width: 50px;
-        height: 50px;
-        background-size: 40px;
-        margin: auto;
+        border-left: 2vh solid #00917c;
+        border-top: 1vh solid transparent;
+        border-bottom: 1vh solid transparent;
     }
     /*HEADER*/
     .header-content {
-        top: 170px;
+        top: 220px;
     }
     .header-content__title {
         font-size: 3rem;
@@ -1150,7 +1169,7 @@ span {
         margin: 10px;
     }
     .section-sobre__explicacion p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 10px;
     }
     .section-sobre__explicacion h3 {
@@ -1191,38 +1210,38 @@ span {
         font-size: 2.5rem;
     }
     .circulo {
-        width: 25px;
-        height: 25px;
+        width: 22px;
+        height: 22px;
     }
     .circulo-pequeño {
-        width: 13px;
-        height: 13px;
+        width: 12px;
+        height: 12px;
     }
     /*COMECOCOS*/
     .pacman-container {
         /*BOCA*/
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
     .pacman-body {
-        width: 80px;
-        height: 80px;
-        border-radius: 40px;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
     }
     .pacman {
-        width: 80px;
-        height: 80px;
-        border-radius: 40px;
-        clip: rect(0px, 40px, 80px, 0px);
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        clip: rect(0px, 35px, 70px, 0px);
     }
     .pacman-mouth {
-        width: 82px;
-        height: 82px;
-        border-radius: 40px;
-        clip: rect(0px, 80px, 80px, 42px);
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        clip: rect(0px, 70px, 70px, 35px);
     }
     .pacman-holder.moving {
-        animation: move 7s linear infinite;
+        animation: move 10s linear infinite;
     }
     @keyframes move {
         0% {
@@ -1239,7 +1258,7 @@ span {
     }
     /*CONTACTO*/
     #section-contacto p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .section-contacto__CURRICULUM {
         border-radius: 5px;
@@ -1271,64 +1290,41 @@ span {
 /*----------------------------------------------------------*/
 
 
+/*------------------ 768 -----------------------------------*/
+
+
+/*----------------------------------------------------------*/
+
+@media(max-width:668px) {
+    .navbar-menu-cafe {
+        flex-direction: column;
+    }
+    .navbar-menu-cafe__parte-dinero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+
+/*----------------------------------------------------------*/
+
+
 /*------------------ 561 -----------------------------------*/
 
 
 /*----------------------------------------------------------*/
 
 @media(max-width:561px) {
-    .gota-agua {
-        height: 60px;
-        width: 60px;
-        background-size: 40px;
-        margin: auto;
-    }
-    .navbar-menu-cafe {
-        padding: 2px;
-        padding-bottom: 21%;
-    }
-    .navbar-menu-cafe__parte-cafe p {
-        height: 40px;
-        width: 150px;
-    }
-    .navbar-menu-cafe p {
-        font-size: 1.1rem;
-    }
     .navbar-menu-cafe__cafe {
-        padding: 10px 5px;
-    }
-    .navbar-menu-cafe__cafe-boton {
-        padding: 10px;
-        width: 20px;
-        height: 20px;
-    }
-    .navbar-menu-cafe__parte-dinero {
-        height: 90px;
-        width: 140px;
-        bottom: 0;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla h1 {
-        font-size: 0.8rem;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-        border-left: 20px solid #00917c;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
-        border-left: 20px solid #00917c;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
-        width: 50px;
-        height: 50px;
-        background-size: 40px;
-        margin: auto;
+        margin: auto 14vh;
     }
     /*HEADER*/
     .header-content {
-        top: 140px;
+        top: 220px;
     }
     .header-content__title {
         font-size: 2rem;
@@ -1350,7 +1346,7 @@ span {
         padding: 0;
     }
     .section-sobre__explicacion p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 20px;
         text-align: center;
     }
@@ -1409,7 +1405,7 @@ span {
     }
     /*CONTACTO*/
     #section-contacto p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .section-contacto__CURRICULUM {
         border-radius: 5px;
@@ -1449,46 +1445,30 @@ span {
 /*----------------------------------------------------------*/
 
 @media(max-width:426px) {
-    .gota-agua {
-        height: 50px;
-        width: 50px;
-        background-size: 30px;
+    .navbar-menu-cafe {
+        padding-bottom: 15vh;
+    }
+    .navbar-menu-cafe__cafe {
         margin: auto;
     }
     .navbar-menu-cafe {
-        padding: 2px;
-        padding-bottom: 23%;
+        flex-direction: column;
     }
-    .navbar-menu-cafe__parte-cafe p {
-        height: 30px;
-        width: 140px;
-    }
-    .navbar-menu-cafe__cafe-boton {
-        width: 10px;
-        height: 10px;
+    .navbar-menu-cafe p {
+        width: 15vh;
+        font-size: 1rem;
+        padding: 1vh;
     }
     .navbar-menu-cafe__parte-dinero {
-        height: 75px;
-        width: 120px;
-        top: 100px;
+        position: absolute;
+        top: 16vh;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
     }
-    .navbar-menu-cafe__parte-dinero__pantalla h1 {
-        font-size: 0.6rem;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
-        width: 45px;
-        height: 45px;
-        background-size: 25px;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cambIzq {
-        border-left: 13px solid #00917c;
-        border-top: 7px solid transparent;
-        border-bottom: 7px solid transparent;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cambDer {
-        border-left: 13px solid #00917c;
-        border-top: 7px solid transparent;
-        border-bottom: 7px solid transparent;
+    p {
+        text-shadow: 0px 0.1px 0.1px black !important;
     }
     /*HEADER*/
     #header-video__video-2 {
@@ -1514,6 +1494,9 @@ span {
         height: auto;
         padding: 0;
     }
+    .section-sobre__explicacion p {
+        font-size: 0.8rem;
+    }
     /*TECNOLOGÍA*/
     .section-tecnologia__img img {
         width: 330px;
@@ -1528,12 +1511,12 @@ span {
         text-align: center;
     }
     .check {
-        border: solid 6px #025955;
-        width: 25px;
-        height: 10px;
+        border: solid 5px #025955;
+        width: 20px;
+        height: 8px;
         border-top: none;
         border-right: none;
-        animation: start 2s ease infinite both;
+        animation: start 4s ease infinite both;
         top: 5px;
     }
     @keyframes start {
@@ -1556,33 +1539,33 @@ span {
     }
     /*COMECOCOS*/
     .pacman-container {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         animation: bite 0.5s linear infinite;
     }
     .pacman-body {
-        width: 60px;
-        height: 60px;
-        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
     }
     .pacman {
-        width: 60px;
-        height: 60px;
-        border-radius: 30px;
-        clip: rect(0px, 30px, 60px, 0px);
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        clip: rect(0px, 25px, 50px, 0px);
     }
     .pacman-mouth {
         left: 0px;
-        width: 62px;
-        height: 62px;
-        border-radius: 30px;
-        clip: rect(0px, 60px, 60px, 32px);
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        clip: rect(0px, 50px, 50px, 25px);
     }
     .pacman-mouth .pacman {
         animation: munch 0.5s linear infinite;
     }
     .pacman-holder.moving {
-        animation: move 6s linear infinite;
+        animation: move 10s linear infinite;
     }
     @keyframes move {
         0% {
@@ -1596,6 +1579,18 @@ span {
         100% {
             top: 560px;
         }
+    }
+    .circulo {
+        width: 18px;
+        height: 18px;
+    }
+    .circulo-pequeño {
+        width: 10px;
+        height: 10px;
+    }
+    /*CONTACTO*/
+    #section-contacto p {
+        font-size: 0.8rem;
     }
 }
 
@@ -1613,14 +1608,6 @@ span {
         height: 45px;
         width: 45px;
         background-size: 25px;
-    }
-    .navbar-menu-cafe {
-        padding: 2px;
-        padding-bottom: 25%;
-    }
-    .navbar-menu-cafe__parte-dinero {
-        height: 70px;
-        width: 120px;
     }
     /*SOBRE*/
     .section-sobre__img img {
@@ -1656,23 +1643,12 @@ span {
 /*----------------------------------------------------------*/
 
 @media(max-width:321px) {
-    .navbar-menu-cafe__parte-cafe p {
-        height: 25px;
-        width: 130px;
-        font-size: 0.9rem;
+    /*HEADER*/
+    .header-content__title {
+        font-size: 2rem;
     }
-    .navbar-menu-cafe__parte-dinero__pantalla h1 {
-        font-size: 0.6rem;
-    }
-    .navbar-menu-cafe__parte-dinero {
-        height: 65px;
-        width: 120px;
-        top: 90px;
-    }
-    .navbar-menu-cafe__parte-dinero__pantalla-cafe {
-        width: 40px;
-        height: 40px;
-        background-size: 20px;
+    .header-content__text {
+        font-size: 1rem;
     }
     /*SOBRE*/
     #section-sobre h3 {
