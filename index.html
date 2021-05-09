@@ -18,7 +18,7 @@
 
     <!-- FONT-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet" />
+
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
 
@@ -30,293 +30,252 @@
     <!-- NAVBAR -->
     <!------------------------------------------------------------->
     <div class="navbar" style="background: none;">
-
-        <!-- PAR DE BOTONES -->
-        <div class="navbar-menu-cafe" style="display: none;">
-            <div class="navbar-menu-cafe__parte-cafe">
-                <div class="navbar-menu-cafe__cafe">
+        <div class="navbar-menu" style="display: none;">
+            <div class="navbar-menu-sections">
+                <div class="navbar-menu-sections-element">
                     <p> SOBRE MÍ</p>
-                    <a href="#section-sobre">
-                        <div class="navbar-menu-cafe__cafe-boton"></div>
+                    <a href="#section-about">
+                        <div class="navbar-menu-sections-element-button"></div>
                     </a>
                 </div>
-                <div class="navbar-menu-cafe__cafe">
-                    <a href="#section-tecnologia">
-                        <div class="navbar-menu-cafe__cafe-boton"></div>
+                <div class="navbar-menu-sections-element">
+                    <a href="#section-skills">
+                        <div class="navbar-menu-sections-element-button"></div>
                     </a>
                     <p> TECNOLOGÍA</p>
                 </div>
             </div>
 
-            <!-- CAFETERA -->
-            <div class="navbar-menu-cafe__parte-dinero">
-                <div class="navbar-menu-cafe__parte-dinero__pantalla">
-                    <h1>EXPRESSO</h1>
+            <div class="navbar-menu-machine">
+                <div class="navbar-menu-machine-name">
+                    <h5>EXPRESSO</h5>
                 </div>
-
-                <div class="cont">
-
-                    <div class="navbar-menu-cafe__parte-dinero__pantalla-cambIzq">
-
-                    </div>
-
-                    <div class="navbar-menu-cafe__parte-dinero__pantalla-cafe">
-
-                    </div>
-
-                    <div class="navbar-menu-cafe__parte-dinero__pantalla-cambDer">
-
-                    </div>
+                <div class="navbar-menu-machine-container">
+                    <div class="navbar-menu-machine-container-changeLeft"></div>
+                    <div class="navbar-menu-machine-container-coffee"></div>
+                    <div class="navbar-menu-machine-container-changeRight"> </div>
                 </div>
             </div>
 
-            <!-- PAR DE BOTONES -->
-            <div class="navbar-menu-cafe__parte-cafe">
-                <div class="navbar-menu-cafe__cafe">
+            <div class="navbar-menu-sections">
+                <div class="navbar-menu-sections-element">
                     <p> TRABAJO</p>
-                    <a href="#section-trabajo">
-                        <div class="navbar-menu-cafe__cafe-boton"></div>
+                    <a href="#section-experience">
+                        <div class="navbar-menu-sections-element-button"></div>
                     </a>
                 </div>
-                <div class="navbar-menu-cafe__cafe">
-
-                    <a href="#section-contacto">
-                        <div class="navbar-menu-cafe__cafe-boton"></div>
+                <div class="navbar-menu-sections-element">
+                    <a href="#section-contact">
+                        <div class="navbar-menu-sections-element-button"></div>
                     </a>
                     <p> CONTACTO</p>
                 </div>
             </div>
         </div>
 
-        <!-- GOTA DE AGUA -->
-        <div class="navbar-cafe">
-            <div class="gota-agua"></div>
+        <div class="navbar-hidden">
+            <div class="navbar-hidden__button"></div>
         </div>
     </div>
 
     <!-- HEADER-->
     <!------------------------------------------------------------->
     <header id="section-header">
-        <!-- VIDEO BACKGROUND -->
-        <div class="header-video__video">
-            <video autoplay muted loop id="header-video__video">
-                <source src="video/header.mp4" type="video/mp4" />
-            </video>
-            <video autoplay muted loop id="header-video__video-2">
-                <source src="video/header-2.mp4" type="video/mp4" />
-            </video>
-            <video autoplay muted loop id="header-video__video-3">
+        <div class="header-video">
+            <video autoplay muted loop id="header-video">
                 <source src="video/header-3.mp4" type="video/mp4" />
             </video>
         </div>
-
-        <!-- TITULO HEADER-->
         <div class="header-content">
-            <h1 class="header-content__title">ANTONIO MARIN RODRIGUEZ</h1>
-            <p class="header-content__text"></p>
+            <h1></h1>
+            <h2></h2>
         </div>
     </header>
 
     <!--ABOUT-->
     <!------------------------------------------------------------->
-    <section class="bg-light" id="section-sobre">
-        <div class="section-sobre__img">
-            <img class="sobre-img" src="img/sobre mi.jpg" alt="sobre mi" />
-        </div>
-        <div class="section-sobre__explicacion">
-            <h3>SOBRE MÍ</h3>
-            <p> Soy Antonio Marín Rodríguez, residente acualmente en Córdoba capital y nacido en Villanueva de Córdoba.
-            </p>
-            <p>
-                Recién finalizada la carrera de ingeniería informática en la Universidad de Córdoba y con ganas de comenzar en el ámbito laboral.
-            </p>
-            <p>
-                Mi campo de trabajo es el desarrollo software de aplicaciones móviles y web, aunque soy capaz de desenvolverme en otros aspectos de la programación.
-            </p>
-            <p>
-                Mis principales actitudes son mi imaginación y creatividad, combinadas con una gran capacidad de trabajo bajo presión. Siempre daré el 100% a la hora de realizar el trabajo.
-            </p>
-            <p>
-                Gran amante del café y de la vida.
-            </p>
+    <section id="section-about">
+        <div class="section-about__content">
+            <div class="section-about__img">
+                <img src="img/sobre mi.jpg" alt="sobre mi" />
+            </div>
+            <div class="section-about__text">
+                <h2>SOBRE MÍ</h2>
+
+                <p class="section-about__text-principal">
+                    Recién finalizada la carrera de ingeniería informática en la Universidad de Córdoba y con ganas de comenzar en el ámbito laboral. Recién finalizada la carrera de ingeniería informática en la Universidad de Córdoba y con ganas de comenzar en el ámbito
+                    laboral. <b>Más info.</b>
+                </p>
+                <div class="section-about__text-secondary">
+                    <p> Soy Antonio Marín Rodríguez, residente acualmente en Córdoba capital y nacido en Villanueva de Córdoba.
+                    </p>
+                    <p>
+                        Recién finalizada la carrera de ingeniería informática en la Universidad de Córdoba y con ganas de comenzar en el ámbito laboral.
+                    </p>
+                    <p>
+                        Mi campo de trabajo es el desarrollo software de aplicaciones móviles y web, aunque soy capaz de desenvolverme en otros aspectos de la programación.
+                    </p>
+                    <p>
+                        Mis principales actitudes son mi imaginación y creatividad, combinadas con una gran capacidad de trabajo bajo presión. Siempre daré el 100% a la hora de realizar el trabajo.
+                    </p>
+                    <p>
+                        Gran amante del café y de la vida. </p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!--TECNOLOGY-->
+    <!--SKILLS-->
     <!------------------------------------------------------------->
-    <section id="section-tecnologia">
-        <div class="section-tecnologia__skills">
+    <section id="section-skills">
+        <div class="section-skills__content">
+            <div class="section-skills">
+                <h2>HABILIDADES</h2>
 
-            <h3>HABILIDADES</h3>
+                <div class="section-skills__container-skills">
+                    <h3>DISEÑO FRONTEND</h3>
+                    <ul class="section-skills__list-skills">
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                    </ul>
 
-            <!-- HABILIDADES -->
-            <div class="section-tecnologia__grid-container">
-                <div class="section-tecnologia_grid-container__element">
-                    <p>HTML</p>
+
+                    <h3>DISEÑO BACKEND</h3>
+                    <ul class="section-skills__list-skills">
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                    </ul>
                 </div>
-                <div class="check"></div>
 
-                <div class="section-tecnologia_grid-container__element ">
-                    <p>CSS</p>
-
-                </div>
-                <div class="check"></div>
-
-                <div class="section-tecnologia_grid-container__element">
-                    <p>JS</p>
-
-                </div>
-                <div class="check "></div>
-
-                <div class="section-tecnologia_grid-container__element">
-                    <p class="text-tecnologia">NODEJS</p>
-
-                </div>
-                <div class="check"></div>
-
-                <div class="section-tecnologia_grid-container__element">
-                    <p class="text-tecnologia">PYTHON</p>
-
-                </div>
-                <div class="check"></div>
-
-                <div class="section-tecnologia_grid-container__element">
-                    <p class="text-tecnologia">JAVA</p>
-
-                </div>
-                <div class=" check"></div>
-
-                <div class="section-tecnologia_grid-container__element">
-                    <p class="text-tecnologia">C++</p>
-
-                </div>
-                <div class="check"></div>
-
-                <div class="section-tecnologia_grid-container__element">
-                    <p class="text-tecnologia">SQL</p>
-
-                </div>
-                <div class="check"></div>
             </div>
-        </div>
 
-        <div class="section-tecnologia__img">
-            <img src="img/tecnologia.jpg" alt="Tecnología" />
+            <div class="section-skills-image">
+                <img src="img/tecnologia.jpg" alt="Skill" />
+            </div>
         </div>
     </section>
 
 
-    <!--EXPERIENCIA-->
+    <!--EXPERIENCE-->
     <!-- ----------------------------------------------------------->
-    <section id="section-trabajo">
+    <section id="section-experience">
 
-        <h3>MI TRAYECTORIA</h3>
+        <h2>EXPERIENCE</h2>
 
-        <div class="section-trabajo__grid">
+        <div class="section-experience-lifeline">
+            <div class="section-experience-lifeline-element">
+                <h3 class="section-experience-lifeline-year">2014</h3>
 
-            <div class="anio">
-                <p><b>1996</b></p>
-            </div>
-
-            <!-- PACMAN -->
-            <div class="pacman-holder moving">
-                <div class="pacman-container">
-                    <div class="pacman-body"></div>
-                    <div class="pacman-mouth">
-                        <div class="pacman"></div>
+                <div class="pacman-holder">
+                    <div class="pacman-container">
+                        <div class="pacman-body"></div>
+                        <div class="pacman-mouth">
+                            <div class="pacman"></div>
+                        </div>
                     </div>
                 </div>
+
+                <h3 class="section-experience-lifeline-text"> FINALIZACIÓN BACHILLERATO CIENTIFICO</h3>
             </div>
 
-            <div class="section-trabajo__grid-text">
-                <p>Nacimiento</p>
+            <div class="section-experience-lifeline-element">
+                <p></p>
+                <div class="section-experience-lifeline-tinyCircule"></div>
+                <p></p>
             </div>
 
-            <p></p>
-            <div class="circulo-pequeño"></div>
-            <p></p>
+            <div class="section-experience-lifeline-element">
+                <div class="section-experience-lifeline-year">
+                    <h3><b></b></h3>
+                </div>
 
-            <div class="anio">
-                <p><b>2012</b></p>
+                <div class="section-experience-lifeline-Circule"></div>
+
+                <div class="section-experience-lifeline-text">
+                    <h4>Aplicación móvil</h4>
+                    <p><a href="descargable/app-nutricion.apk" download="app-nutricion">app-nutricion.apk</p>
+                    <p><a href="https://github.com/ErMarinh/TFG" target="_blank">ErMarinh/TFG</a></p>
+                </div>
             </div>
 
-            <div class="circulo"></div>
-
-            <div class="section-trabajo__grid-text">
-                <p>Finalización ESO</p>
+            <div class="section-experience-lifeline-element">
+                <p></p>
+                <div class="section-experience-lifeline-tinyCircule"></div>
+                <p></p>
             </div>
 
-            <p></p>
-            <div class="circulo-pequeño"></div>
-            <p></p>
-
-            <div class="anio">
-                <p><b>2014</b></p>
+            <div class="section-experience-lifeline-element">
+                <h3 class="section-experience-lifeline-year"><b>2020</b></h3>
+                <div class="section-experience-lifeline-Circule"></div>
+                <h3 class="section-experience-lifeline-text"> GRADUADO INGENIERÍA INFORMÁTICA</h3>
             </div>
 
-            <div class="circulo"></div>
-            <div class="section-trabajo__grid-text">
-                <p>Titulado Bachillerato Ciencias</p>
+            <div class="section-experience-lifeline-element">
+                <p></p>
+                <div class="section-experience-lifeline-tinyCircule"></div>
+                <p></p>
             </div>
 
-            <p></p>
-            <div class="circulo-pequeño"></div>
-            <p></p>
+            <div class="section-experience-lifeline-element">
+                <div class="section-experience-lifeline-year">
+                    <h3><b></b></h3>
+                </div>
 
-            <div class="anio">
-                <p><b>2020</b></p>
+                <div class="section-experience-lifeline-Circule"></div>
+
+                <div class="section-experience-lifeline-text">
+                    <h4>PÁGINA WEB PERSONAL</h4>
+                    <p><a href="descargable/app-nutricion.apk" download="app-nutricion">app-nutricion.apk</p>
+                        <p><a href="https://github.com/ErMarinh/TFG" target="_blank">ErMarinh/TFG</a></p>
+                </div>
             </div>
-
-            <div class="circulo"></div>
-
-            <div class="section-trabajo__grid-text">
-                <p>Graduado Ingeniería Informática</p>
-            </div>
-
-            <p></p>
-            <div class="circulo-pequeño"></div>
-            <div></div>
-
-        </div>
-
-        <!-- POSIT-->
-        <div class="contenedor__posit">
-            <p>DESARROLLO DE APLICACIÓN ANDROID COMO TFG </p>
-            <p> </p>
-            <p><b>GITHUB: </b>
-                <a href="https://github.com/ErMarinh/TFG" target="_blank">ErMarinh/TFG</a>
-                <p><b>APK </b>:
-                    <a href="descargable/app-nutricion.apk" download="app-nutricion">app-nutricion.apk</a>
-        </div>
     </section>
 
-    <!-- CONTACTO -->
+    <!-- CONTACT -->
     <!-- ----------------------------------------------------------->
-    <section id="section-contacto">
-        <h3>CONTACTO</h3>
-        <p>
-            No duden en ponerse en contacto conmigo para más información. Me encuentro además abierto a cualquier consejo y sugerencia.
-        </p>
+    <section id="section-contact">
+        <div class="section-contact__content">
+            <h2>CONTACTO</h2>
+            <p>No duden en ponerse en contacto conmigo para más información. Me encuentro además abierto a cualquier consejo y sugerencia.</p>
 
-        <!-- BOTON -->
-        <a class="section-contacto__CURRICULUM" href="descargable/CURRICULUM.pdf" download="CURRICULUM">CURRICULUM</a>
+            <a class="section-contact_button" href="descargable/CURRICULUM.pdf" download="CURRICULUM">CURRICULUM</a>
 
-        <!-- REDES-->
-        <div class="section-contacto__redes">
-            <div class="section-contacto__redes-div">
-                <i class="fab fa-linkedin fa-4x"></i>
-                <a href="https://www.linkedin.com/in/antonio-marin-07681b1bb/" target="_blank">LINKEDIN</a>
-                <p> antonio-marin-07681b1bb</p>
-            </div>
-            <div class="section-contacto__redes-div">
-                <i class="fas fa-at fa-4x"></i>
-                <a href="https://mail.google.com/" target="_blank">GMAIL</a>
-                <p>amarinprofesional@gmail.com</p>
-            </div>
-            <div class="section-contacto__redes-div">
-                <i class="fab fa-instagram fa-4x"></i>
-                <a href="https://www.instagram.com/antonito_marin/" target="_blank">INSTAGRAM</a>
-                <p>antonito_marin</p>
+            <div class="section-contact_social">
+                <div class="section-contact_social-element">
+                    <i class="fab fa-linkedin fa-4x"></i>
+                    <a href="https://www.linkedin.com/in/antonio-marin-07681b1bb/" target="_blank"><b>LINKEDIN</b></a>
+                    <p> antonio-marin-07681b1bb</p>
+                </div>
+                <div class="section-contact_social-element">
+                    <i class="fas fa-at fa-4x"></i>
+                    <a href="https://mail.google.com/" target="_blank"><b>GMAIL</b></a>
+                    <p>amarinprofesional@gmail.com</p>
+                </div>
+                <div class="section-contact_social-element">
+                    <i class="fab fa-instagram fa-4x"></i>
+                    <a href="https://www.instagram.com/antonito_marin/" target="_blank"><b>INSTAGRAM</b></a>
+                    <p>antonito_marin</p>
+                </div>
             </div>
         </div>
     </section>
@@ -324,8 +283,8 @@
 
     <!--FOOTER-->
     <!-- ----------------------------------------------------------->
-    <footer class="footer ">
-        <div class="solid"></div>
+    <footer>
+        <div class="footer-solid"></div>
         <p>Antonio Marín Rodríguez &copy; 2021 - All right reserved</p>
     </footer>
 
@@ -333,6 +292,7 @@
     <!-- ----------------------------------------------------------->
     <script src="js/text-animation.js"></script>
     <script src="js/cafe-menu-animation.js"></script>
+    <script src="js/observer.js"></script>
 
 </body>
 

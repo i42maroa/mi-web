@@ -3,24 +3,24 @@
         "nombre": "EXPRESSO",
         "colores_sections": [{
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colP": "#f8f4e1"
             },
             {
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colP": "#f8f4e1"
             },
             {
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colP": "#f8f4e1",
                 "colPac": "#f8f4e1",
                 "colPacM": "#4e3620"
             },
             {
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colA": "#f8f4e1",
                 "colP": "#f8f4e1"
             },
@@ -34,24 +34,24 @@
         "nombre": "LATTE",
         "colores_sections": [{
                 "colB": "#f8f4e1",
-                "colH3": "#4e3620",
+                "colH2": "#4e3620",
                 "colP": "#4e3620"
             },
             {
                 "colB": "#f8f4e1",
-                "colH3": "#4e3620",
+                "colH2": "#4e3620",
                 "colP": "#4e3620"
             },
             {
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colP": "#f8f4e1",
                 "colPac": "#f8f4e1",
                 "colPacM": "#4e3620"
             },
             {
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colA": "#f8f4e1",
                 "colP": "#f8f4e1"
             },
@@ -65,24 +65,24 @@
         "nombre": "IRLANDÉS",
         "colores_sections": [{
                 "colB": "#897853",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colP": "#f8f4e1"
             },
             {
                 "colB": "#897853",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colP": "#f8f4e1"
             },
             {
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colP": "#f8f4e1",
                 "colPac": "#f8f4e1",
                 "colPacM": "#4e3620"
             },
             {
                 "colB": "#4e3620",
-                "colH3": "#f8f4e1",
+                "colH2": "#f8f4e1",
                 "colA": "#f8f4e1",
                 "colP": "#f8f4e1"
             },
@@ -96,24 +96,24 @@
         "nombre": "LECHE",
         "colores_sections": [{
                 "colB": "#f8f4e1",
-                "colH3": "#4e3620",
+                "colH2": "#4e3620",
                 "colP": "#4e3620"
             },
             {
                 "colB": "#f8f4e1",
-                "colH3": "#4e3620",
+                "colH2": "#4e3620",
                 "colP": "#4e3620"
             },
             {
                 "colB": "#f8f4e1",
-                "colH3": "#4e3620",
+                "colH2": "#4e3620",
                 "colP": "#4e3620",
                 "colPac": "#4e3620",
                 "colPacM": "#f8f4e1"
             },
             {
                 "colB": "#f8f4e1",
-                "colH3": "#4e3620",
+                "colH2": "#4e3620",
                 "colA": "#4e3620",
                 "colP": "#4e3620"
             },
