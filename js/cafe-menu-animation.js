@@ -14,13 +14,13 @@ const cafeDer = document.querySelector(".navbar-menu-machine-container-changeRig
 const section_sobre = document.querySelector("#section-about");
 const section_sobre_h2 = document.querySelector(".section-about__text h2");
 const section_sobre_p = document.querySelectorAll(".section-about__text p");
-const section_sobre_masInfo = document.querySelector(".section-about__text p b");
+const section_sobre_masInfo = document.querySelector(".section-about__text .more-info");
 
 const section_skill = document.querySelector("#section-skills");
 const section_skill_h2 = document.querySelector(".section-skills h2");
 const section_skill_h3 = document.querySelectorAll(".section-skills__container-skills h3");
 const section_skill_p = document.querySelectorAll(".section-skills__list-skills li p");
-const section_skill_masInfo = document.querySelector(".section-skills p b");
+const section_skill_masInfo = document.querySelector(".section-skills .more-info");
 
 
 
@@ -79,11 +79,11 @@ const cargarColores = async(documentUrl) => {
         .then((res) => {
             colores = res.colores;
         })
-        .catch(() => console.log(`Document ${documentUrl} not found.`))
+        .catch((e) => console.log(`Document ${documentUrl} not found.`))
 }
 
-cargarCafes("js/cafes.txt");
-cargarColores("js/colores-sections.txt");
+cargarCafes("../content/cafes.json");
+cargarColores("../content/colores-sections.json");
 
 
 for (let x = 0; x < botonToSection.length; x++) {

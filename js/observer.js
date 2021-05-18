@@ -9,6 +9,7 @@ const visibilitySectionAbout = (entry) => {
         document.querySelector(".section-about__img img").style.animation = "aparecerImage 1s forwards cubic-bezier(0, 0, 0.93, 0.14)";
         document.querySelector(".section-about__text h2").style.animation = "aparecerHead 0.8s forwards";
         document.querySelector(".section-about__text-principal p").style.animation = "aparecerText 0.5s 1s forwards";
+        document.querySelector(".section-about__text-principal .more-info").style.animation = "aparecerText 0.5s 1.2s forwards";
 
         if (!navbarShow) {
             document.querySelector(".navbar-hidden__button").style.display = "flex";
@@ -27,7 +28,7 @@ const visibilitySectionSkills = (entry) => {
         document.querySelector(".section-skills-image img").style.animation = "aparecerImage2 1s forwards cubic-bezier(0, 0, 0.93, 0.14) ";
         document.querySelector(".section-skills h2").style.animation = "aparecerHead 0.8s forwards ";
         document.querySelector(".section-skills__container-skills").style.animation = "aparecerText 0.5s 1s forwards ";
-        document.querySelector(".section-skills p b").style.animation = "aparecerText 0.5s 1s forwards ";
+        document.querySelector(".section-skills .more-info").style.animation = "aparecerText 0.5s 1.2s forwards ";
 
     }
 }

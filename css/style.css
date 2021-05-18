@@ -361,6 +361,40 @@ p {
     font-size: 24px;
 }
 
+.header-button-lenguage {
+    position: absolute;
+    top: 91vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    animation: aparecerText 1s 3.5s forwards;
+}
+
+.button-lenguage {
+    border-radius: 50%;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    background-size: 120%;
+    box-shadow: 20px 30px 30px black;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.button-lenguage:hover {
+    border: #00917c 2px solid;
+}
+
+.button-lenguage-es {
+    background-image: url(../img/idioma/es.png);
+}
+
+.button-lenguage-en {
+    background-image: url(../img/idioma/en.png);
+}
+
 
 /*ABOUT*/
 
@@ -414,13 +448,13 @@ p {
     margin: 1vh;
 }
 
-.section-about__text p b {
+.more-info {
     cursor: pointer;
     color: #00917c;
 }
 
 
-/*TECNOLOGIA*/
+/*SKILLS*/
 
 
 /*------------------------------------------*/
@@ -492,10 +526,11 @@ p {
     text-align: center;
 }
 
-.section-skills p b {
-    cursor: pointer;
-    color: #00917c;
+.section-skills .more-info {
     opacity: 0;
+    display: block;
+    margin: auto;
+    text-align: center;
 }
 
 

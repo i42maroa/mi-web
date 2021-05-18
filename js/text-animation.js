@@ -1,10 +1,14 @@
 "use strict";
 
+let cont = 0;
+
 document.addEventListener("DOMContentLoaded", () => {
     const dataTitle = "ANTONIO MARÍN RODRÍGUEZ";
-    const dataTitleText = "Ingeniero informático";
+    let dataTitleText = "Ingeniero Software";
 
     const typeWriterH1 = (text, i) => {
+        document.querySelector(".header-content h2").textContent = "";
+
         if (i < text.length) {
             if (i + 1 == text.length) {
                 document.querySelector(".header-content h1").innerHTML =
