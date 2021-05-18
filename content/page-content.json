@@ -1,0 +1,88 @@
+{
+    "language": [{
+        "name": "Espaniol",
+        "header": "Ingeniero Software",
+        "sections": [{
+            "name": "about",
+            "h2": "SOBRE MÍ",
+
+            "textPrincipal": "Soy Antonio Marín Rodríguez, residente actualmente en Córdoba capital y graduado en ingeniería informática. Mi campo de trabajo es el desarrollo software, pero principalmente el desarrollo web.",
+            "moreInfo": "Más info.",
+
+            "p_0": "Soy Antonio Marín Rodríguez, residente actualmente en Córdoba capital y nacido en Villanueva de Córdoba.",
+            "p_1": "Poseo el grado en ingeniería informática dentro de la Universidad de Córdoba y además de unas inmensas ganas de comenzar en el ámbito laboral.",
+            "p_2": "Mi campo de trabajo es el desarrollo software de aplicaciones móviles y web, aunque soy capaz de desenvolverme en otros aspectos de la programación.",
+            "p_3": "Mis principales actitudes son mi imaginación y creatividad, combinadas con una gran capacidad de trabajo bajo presión. Siempre daré el 100% a la hora de realizar el trabajo.",
+            "p_4": "Gran amante del café y de la vida."
+        }, {
+            "name": "skill",
+            "h2": "HABILIDADES",
+
+            "h3_0": "DISEÑO FRONTEND",
+            "h3_1": "DISEÑO BACKEND",
+            "h3_2": "OTROS LENGUAJES ",
+            "h3_3": "ADICIONAL",
+            "moreInfo": "Ver más"
+
+        }, {
+            "name": "experience",
+            "h2": "EXPERIENCIA",
+
+            "h3_0": "FINALIZACIÓN BACHILLERATO CIENTIFICO",
+            "h3_1": "GRADUADO INGENIERÍA INFORMÁTICA",
+
+            "h4_0": "DESARROLLO E IMPLEMENTACIÓN APLICACIÓN ANDROID",
+            "h4_1": "CREACION WEB PERSONAL",
+
+            "moreInfo": "Más info"
+        }, {
+            "name": "contact",
+            "h2": "CONTACTO",
+            "p": "No duden en ponerse en contacto conmigo para más información. Me encuentro además abierto a cualquier consejo y sugerencia.",
+            "a": "CURRICULUM"
+        }]
+    }, {
+        "name": "English",
+        "header": "Software Engineer",
+        "sections": [{
+            "name": "about",
+            "h2": "ABOUT",
+
+            "textPrincipal": "I´m Antonio Marín Rodríguez, I´m from Córdoba and I have got the Computer Degree from University of Córdoba. I would like to work on software development such as mobile applications or website",
+            "moreInfo": "See more.",
+
+            "p_0": "I´m Antonio Marín Rodríguez. I was brought up in Villanueva de Córdoba but I´m living at Córdoba currently.",
+            "p_1": "I have just finished the Degree of Computer Ingineer at Cordoba´s University, so I would like to start working right now and improving my knowledges.",
+            "p_2": "I would like to work on software development such as mobile applications or website, however I could do anything else because I´m able to do any programming work well.",
+            "p_3": "My mains skills are imagination and creativity, besides I have the capacity to work under pressure. I will always give 100% to carry out any work.",
+            "p_4": "Coffee lover."
+
+        }, {
+            "name": "skill",
+            "h2": "SKILLS",
+
+            "h3_0": "FRONTEND DESIGN",
+            "h3_1": "BACKEND DESIGN",
+            "h3_2": "OTHERS LENGUAGES",
+            "h3_3": "ADITIONAL",
+            "moreInfo": "See more"
+
+        }, {
+            "name": "experience",
+            "h2": "EXPERIENCE",
+
+            "h3_0": "BACHLOR OF SCIENCE",
+            "h3_1": "ENGINEER INFORMATIC",
+
+            "h4_0": "ANDROID APPLICATION DEVELOPMENT",
+            "h4_1": "MAKE PERSONAL WEBPAGE",
+
+            "moreInfo": "More info"
+        }, {
+            "name": "contact",
+            "h2": "CONTACT",
+            "p": "Contact me for more information. I´m looking forward to hearing from you.",
+            "a": "CURRICULUM"
+        }]
+    }]
+}
