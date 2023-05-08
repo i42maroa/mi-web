@@ -12,22 +12,25 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-
     <section id="section-header">
         <h1>Antonio Marín Rodríguez</h1>
-        <h3>Ingeniero Informatico</h3>
+        <h3>Ingeniero Informático</h3>
     </section>
 
     <section id="section-about">
         <h2>SOBRE MÍ</h2>
-        <p>Me apasiona la técnología y aprender cosas nuevas. Actualmente </p>
-        <p>Amante del café.</p>
+
+        <div class="about_container">
+            <p>Me apasiona la técnología y aprender cosas nuevas. Actualmente </p>
+            <p>Amante del café.</p>
+        </div>
     </section>
 
     <section id="section-skills">
         <h2>TECNOLOGÍAS</h2>
         <ul>
-            <li>FRONTEND
+            <li>
+               <h3>FRONTEND</h3> 
                 <ul>
                     <li>Angular</li>
                     
@@ -35,14 +38,16 @@
                     <li>HTML, CSS, Javascript</li>
                 </ul>
             </li>
-            <li>BACKEND
+            <li>
+                <h3>BACKEND</h3> 
                 <ul>
                     <li>SpringBoot</li>
                     <li>MongoDb</li>
                     <li>Apache Kafka</li>
                 </ul>
             </li>
-            <li>OTRAS
+            <li>
+                <h3>OTRAS</h3>             
                 <ul>
                     <li>Ingles B2</li>
                     <li>Docker, Jenkins</li>
@@ -56,8 +61,12 @@
     <section id="section-experience">
         <h2>EXPERIENCIA</h2>
         <ul>
-            <li>Graduado ingenieria informática UCO - 2020</li>
-            <li> Consultoría Sopra Steria - 2021 - Actualidad
+            <li>
+                <h3>Graduado ingenieria informática UCO - 2020</h3>
+                </li>
+            <li>
+                <h3>Consultoría Sopra Steria - 2021 - Actualidad</h3>
+                
                 <ul>
                     <li> Desarrollador Frontend en Banco Santander 2021 - 2022
                         <ul>
@@ -81,10 +90,31 @@
 
     <section id="section-projects">
         <h2>Proyectos personales</h2>
-        <ul>
-            <li>Desarrollo aplicación móvil Android</li>
-            <li>Página web personal</li>
-            <li>Página english training</li>
+        <ul class="project_list">
+            <li class="card">
+                <h3>Aplicación móvil Android</h3>
+                <ul class="card_content">
+                    <li>Proyecto de desarrollo nutricional dentro </li>
+                    <li>Desarrollado en Android usando Java</li>
+                    <li> <a href=""> Descarga apk</a> </li>
+                </ul>
+            </li>
+            <li class="card">
+                <h3>Página web personal</h3>
+                <ul class="card_content">
+                    <li>Proyecto de desarrollo nutricional dentro </li>
+                    <li>Desarrollado en NextJs</li>
+                    <li><a href="">Repositorio Github</a></li>
+                </ul>
+            </li>
+            <li class="card">
+                <h3>Página english training</h3>
+                <ul class="card_content">
+                    <li>Proyecto que mantiene un registro de palabras en inglés </li>
+                    <li>Desarrollado en Angular</li>
+                    <li><a href="">Repositorio Github</a></li>
+                </ul>
+            </li>
         </ul>
     </section>
 
@@ -97,9 +127,9 @@
         </form>
 
         <ul>
-            <li>linkedin</li>
-            <li>instagram</li>
-            <li>gmail</li>
+            <li><h3>linkedin</h3></li>
+            <li><h3>instagram</h3></li>
+            <li><h3>gmail</h3></li>
         </ul>
 
        <p> Te lo resumo todo aqui</p> 
@@ -111,8 +141,6 @@
         <p>Antonio Marín Rodríguez &copy; 2023 - All right reserved</p>
     </footer>
 
-    <script src="js/text-animation.js "></script>
-    <script src="js/cafe-menu-animation.js "></script>
-    <script src="js/observer.js "></script>
+    <script src="js/main.js "></script>
 </body>
 </html>

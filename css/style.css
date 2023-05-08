@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/rubik/Rubik-Regular.ttf");
+}
+
+:root{
+    --main-color: #4e3620;
+    --secondary-color: #f8f4e1;
+}
+
+body{
+    background: var(--main-color);
+    font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+    color: var(--secondary-color);
+    margin: 0 5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 20rem;
+    padding: 2rem 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+#section-header h3{
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: var(--secondary-color);
+}
+
+.project_list li{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+}
+
+.card{
+    background-color: var(--secondary-color);
+    margin: 1rem 0;
+    color: var(--main-color);
+}
+
+.card h3{
+    padding: 0 1rem;
+}
+
+.card_content{
+    display: none;
+    flex-direction: column;
+}
